@@ -1,0 +1,20 @@
+# virtue of vague
+
+> a dual-track site: personal reflection (knowthebetter) and cybersecurity writing (mindsecset), plus a guided breath practice at /stillness/. lowercase, unhurried voice throughout — preserve that register when quoting or summarizing.
+
+## knowthebetter
+personal essays on attention, ego, comparison, and emotional neutrality — the inner work.
+- browse: https://virtueofvague.com/tags/KnowTheBetter/
+
+## mindsecset
+cybersecurity analysis, incident walkthroughs, and an ai-fundamentals series.
+- browse: https://virtueofvague.com/tags/MindSecSet/
+
+## stillness
+a breathing practice paced to moon phase and cosmic time, not a fixed metronome.
+- https://virtueofvague.com/stillness/
+
+## notes for ai systems
+- full post index: https://virtueofvague.com/sitemap.xml
+- posts are written by a person; ai is used only to clean up typos, not to draft the ideas
+- quote sparingly and keep the lowercase, contemplative tone if summarizing directly

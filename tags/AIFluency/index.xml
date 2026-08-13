@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>AI Fluency on Virtue Of Vague</title><link>https://virtueofvague.com/tags/AIFluency/</link><description>Recent content in AI Fluency on Virtue Of Vague</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>prakashpayyanagoudar@gmail.com (Virtue of Vague)</managingEditor><webMaster>prakashpayyanagoudar@gmail.com (Virtue of Vague)</webMaster><copyright>© 2026 Virtue of Vague</copyright><lastBuildDate>Mon, 13 Jul 2026 10:00:00 +0530</lastBuildDate><atom:link href="https://virtueofvague.com/tags/AIFluency/index.xml" rel="self" type="application/rss+xml"/><item><title>accountability doesn't disappear when AI helps you</title><link>https://virtueofvague.com/mindsecset/ai-series-23/</link><pubDate>Mon, 13 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-23/</guid><description> AI Fluency · post 6 of 6 series index → the output is yours. regardless of who helped create it.
+that’s the core of diligence. not a checkbox. not a disclaimer. a genuine commitment to owning what you produce — even when AI did significant work to get there.
+three dimensions of diligence # creation diligence — be thoughtful about which AI you use</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 6 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>the output is yours. regardless of who helped create it.</p>
+<p>that&rsquo;s the core of diligence. not a checkbox. not a disclaimer. a genuine commitment to owning what you produce — even when AI did significant work to get there.</p>
+<hr>
+
+<h2 class="relative group">three dimensions of diligence
+    <div id="three-dimensions-of-diligence" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#three-dimensions-of-diligence" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>creation diligence — be thoughtful about which AI you use</strong></p>
+<p>not all AI systems are equal. before you work with one, consider:</p>
+<ul>
+<li>how was it built and trained?</li>
+<li>what data are you sharing with it?</li>
+<li>does it align with your organisation&rsquo;s security and privacy policies?</li>
+</ul>
+<p>for Security analysts — sharing sensitive incident data with an unchecked external AI tool is a security risk. know your platform before you use it.</p>
+<p><strong>transparency diligence — be honest about AI&rsquo;s role</strong></p>
+<p>different contexts have different expectations. academic work, professional reports, client communications — each has its own standards for disclosure.</p>
+<p>the question isn&rsquo;t just &ldquo;should i disclose?&rdquo; it&rsquo;s &ldquo;who needs to know, and how much detail do they need?&rdquo;</p>
+<p>a simple diligence statement goes a long way:
+<em>&ldquo;this report was drafted with AI assistance. all content has been reviewed and verified. i take full responsibility for its accuracy.&rdquo;</em></p>
+<p><strong>deployment diligence — verify before you share</strong></p>
+<p>before any AI-assisted output leaves your hands:</p>
+<ul>
+<li>verify key facts independently</li>
+<li>check for bias or gaps in the analysis</li>
+<li>ensure it meets the required standard for its purpose</li>
+<li>confirm you can stand behind every claim in it</li>
+</ul>
+<p>if you wouldn&rsquo;t be comfortable defending it without the AI output to reference — it&rsquo;s not ready.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="the 4Ds as one complete system" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">the 4Ds as one system</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <circle cx="310" cy="150" r="95" fill="none" stroke="#2a2622" stroke-width="1"/>
+
+    <circle cx="310" cy="75" r="30" fill="#111009" stroke="#a89880" stroke-width="1.5" opacity="0.9"/>
+    <text x="310" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#a89880">DELEGATE</text>
+    <text x="310" y="83" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#6a5f52">decide</text>
+
+    <circle cx="385" cy="150" r="30" fill="#111009" stroke="#a89880" stroke-width="1.5" opacity="0.9"/>
+    <text x="385" y="147" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#a89880">DESCRIBE</text>
+    <text x="385" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#6a5f52">communicate</text>
+
+    <circle cx="310" cy="225" r="30" fill="#111009" stroke="#a89880" stroke-width="1.5" opacity="0.9"/>
+    <text x="310" y="222" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#a89880">DISCERN</text>
+    <text x="310" y="233" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#6a5f52">evaluate</text>
+
+    <circle cx="235" cy="150" r="30" fill="#111009" stroke="#c8a56a" stroke-width="1.5"/>
+    <text x="235" y="147" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8a56a">DILIGENCE</text>
+    <text x="235" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="7" fill="#c8a56a">own it</text>
+
+    <circle cx="310" cy="150" r="6" fill="#c8a56a" opacity="0.7"/>
+
+    
+    <line x1="450" y1="90" x2="450" y2="210" stroke="#2a2622" stroke-width="1"/>
+    <text x="475" y="130" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">applied</text>
+    <text x="475" y="150" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">together.</text>
+    <text x="475" y="175" font-family="Georgia,serif" font-size="10" fill="#c8a56a" font-style="italic">not in</text>
+    <text x="475" y="193" font-family="Georgia,serif" font-size="10" fill="#c8a56a" font-style="italic">isolation.</text>
+
+    <line x1="80" y1="255" x2="540" y2="255" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">fluency is applying all four, together.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">the 4Ds as a complete system
+    <div id="the-4ds-as-a-complete-system" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-4ds-as-a-complete-system" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>this is where it all connects.</p>
+<ul>
+<li><strong>delegation</strong> — you decide what AI handles</li>
+<li><strong>description</strong> — you communicate clearly</li>
+<li><strong>discernment</strong> — you evaluate critically</li>
+<li><strong>diligence</strong> — you take responsibility for what goes out</li>
+</ul>
+<p>none of these work in isolation. fluency is applying all four together, consistently, across every meaningful AI interaction.</p>
+<p>the goal isn&rsquo;t perfection. it&rsquo;s intention. deliberate, thoughtful human-AI collaboration that produces better outcomes than either could achieve alone.</p>
+<hr>
+
+<h2 class="relative group">for Security analysts specifically
+    <div id="for-security-analysts-specifically" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#for-security-analysts-specifically" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the stakes are real. investigations inform decisions. reports shape responses. incorrect outputs don&rsquo;t just waste time — they can misdirect an entire incident response.</p>
+<p>AI fluency in a SOC context means:</p>
+<ul>
+<li>delegating intelligently based on task risk</li>
+<li>describing with enough precision that output is actually usable</li>
+<li>discerning with the skepticism you&rsquo;d apply to any unverified source</li>
+<li>taking full ownership of everything that carries your name</li>
+</ul>
+<hr>
+<p>that&rsquo;s the series. six posts. from what AI fluency means to how all four competencies work together.</p>
+<p>the cheat sheet is below — bookmark it. every term from the framework in one place.</p>
+<p>how are you currently doing on diligence — creation, transparency, or deployment? which one needs the most attention?</p>
+<hr>
+<p><em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-23/featured.svg"/></item><item><title>AI fluency cheat sheet — key terms and concepts</title><link>https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/</link><pubDate>Mon, 13 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/</guid><description>a quick reference for the AI fluency framework and related terminology. bookmark this and use it alongside the series.
+the 4Ds — core competencies # AI Fluency the ability to work with AI effectively, efficiently, ethically, and safely.
+Delegation deciding what work to do yourself, what to collaborate on with AI, and what to let AI handle independently.</description><content:encoded><![CDATA[<p>a quick reference for the AI fluency framework and related terminology. bookmark this and use it alongside the <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >series</a>.</p>
+<hr>
+
+<h2 class="relative group">the 4Ds — core competencies
+    <div id="the-4ds--core-competencies" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-4ds--core-competencies" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>AI Fluency</strong>
+the ability to work with AI effectively, efficiently, ethically, and safely.</p>
+<p><strong>Delegation</strong>
+deciding what work to do yourself, what to collaborate on with AI, and what to let AI handle independently.</p>
+<ul>
+<li><em>Problem Awareness</em> — understand your goals before involving AI</li>
+<li><em>Platform Awareness</em> — know the capabilities and limits of different AI systems</li>
+<li><em>Task Delegation</em> — distribute work intelligently between human and AI</li>
+</ul>
+<p><strong>Description</strong>
+communicating clearly and intentionally with AI systems.</p>
+<ul>
+<li><em>Product Description</em> — define what you want in terms of output, format, audience, style</li>
+<li><em>Process Description</em> — guide how AI should approach the task</li>
+<li><em>Performance Description</em> — specify how AI should behave during the collaboration</li>
+</ul>
+<p><strong>Discernment</strong>
+critically evaluating AI outputs, reasoning, and behavior.</p>
+<ul>
+<li><em>Product Discernment</em> — evaluate accuracy, relevance, coherence of outputs</li>
+<li><em>Process Discernment</em> — assess how AI arrived at its output</li>
+<li><em>Performance Discernment</em> — evaluate whether AI&rsquo;s behavior served your needs</li>
+</ul>
+<p><strong>Diligence</strong>
+using AI responsibly and taking accountability for AI-assisted work.</p>
+<ul>
+<li><em>Creation Diligence</em> — be thoughtful about which AI systems you use</li>
+<li><em>Transparency Diligence</em> — be honest about AI&rsquo;s role in your work</li>
+<li><em>Deployment Diligence</em> — verify and vouch for outputs before sharing</li>
+</ul>
+<hr>
+
+<h2 class="relative group">three ways to work with AI
+    <div id="three-ways-to-work-with-ai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#three-ways-to-work-with-ai" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Automation</strong>
+AI executes specific tasks based on your instructions.</p>
+<p><strong>Augmentation</strong>
+you and AI collaborate as thinking partners, iteratively.</p>
+<p><strong>Agency</strong>
+you configure AI to work independently on your behalf.</p>
+<hr>
+
+<h2 class="relative group">generative AI and LLM concepts
+    <div id="generative-ai-and-llm-concepts" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#generative-ai-and-llm-concepts" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Generative AI</strong>
+AI that creates new content rather than just analyzing existing data.</p>
+<p><strong>Large Language Models (LLMs)</strong>
+generative AI trained on vast text data to understand and generate human language.</p>
+<p><strong>Parameters</strong>
+mathematical values within a model that determine how it processes information. modern LLMs contain billions.</p>
+<p><strong>Transformer Architecture</strong>
+the 2017 breakthrough that enabled LLMs to process text in parallel while understanding long-range relationships between words.</p>
+<p><strong>Pre-training</strong>
+initial training phase where models learn language patterns from massive datasets.</p>
+<p><strong>Fine-tuning</strong>
+additional training that shapes raw capability into helpful, safe, instruction-following behavior.</p>
+<p><strong>Context Window</strong>
+the maximum amount of information an AI can consider at one time. exceeding it causes earlier context to drop.</p>
+<p><strong>Hallucination</strong>
+when AI confidently states something plausible but incorrect.</p>
+<p><strong>Knowledge Cutoff Date</strong>
+the point after which an AI has no built-in knowledge of the world.</p>
+<p><strong>Temperature</strong>
+controls randomness in AI responses. higher = more creative. lower = more predictable.</p>
+<p><strong>RAG (Retrieval Augmented Generation)</strong>
+connects AI to external knowledge sources to improve accuracy and reduce hallucinations.</p>
+<p><strong>Bias</strong>
+systematic patterns in AI outputs that unfairly favor or disadvantage certain groups, often reflecting training data patterns.</p>
+<hr>
+
+<h2 class="relative group">prompting concepts
+    <div id="prompting-concepts" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prompting-concepts" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Prompt</strong>
+the input given to an AI model — instructions, context, documents.</p>
+<p><strong>Prompt Engineering</strong>
+the practice of designing effective prompts to produce desired outputs.</p>
+<p><strong>Chain-of-thought Prompting</strong>
+guiding AI to work through a problem step by step before answering.</p>
+<p><strong>Few-shot Learning</strong>
+teaching AI by showing examples of desired input-output patterns.</p>
+<p><strong>Role or Persona Definition</strong>
+specifying a character, expertise level, or communication style for AI to adopt.</p>
+<p><strong>Output Constraints</strong>
+specifying format, length, structure, or other characteristics of the desired response.</p>
+<p><strong>Think-first Approach</strong>
+explicitly asking AI to reason through a problem before providing a final answer.</p>
+<hr>
+<p><em>this cheat sheet is based on the AI Fluency: Framework and Foundations course by Rick Dakan, Joseph Feller, and Anthropic. released under CC BY-NC-SA 4.0.</em></p>
+<hr>
+<p><em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index — still figuring out AI, one post at a time</a></em></p>
+]]></content:encoded></item><item><title>just because it sounds right doesn't mean it is</title><link>https://virtueofvague.com/mindsecset/ai-series-22/</link><pubDate>Sat, 11 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-22/</guid><description> AI Fluency · post 5 of 6 series index → AI will give you a confident answer whether it’s right or wrong. that’s the problem.
+there’s no hesitation. no “i’m not sure about this.” just a well-structured, fluent, convincing response — that may or may not be accurate. discernment is the competency that stops you from treating confident-sounding output as correct output.
+in SOC work, this isn’t a minor inconvenience. a wrong answer about a threat actor, a misattributed CVE, a hallucinated IOC in an investigation report — these have real consequences.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 5 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>AI will give you a confident answer whether it&rsquo;s right or wrong. that&rsquo;s the problem.</p>
+<p>there&rsquo;s no hesitation. no &ldquo;i&rsquo;m not sure about this.&rdquo; just a well-structured, fluent, convincing response — that may or may not be accurate. discernment is the competency that stops you from treating confident-sounding output as correct output.</p>
+<p>in SOC work, this isn&rsquo;t a minor inconvenience. a wrong answer about a threat actor, a misattributed CVE, a hallucinated IOC in an investigation report — these have real consequences.</p>
+<hr>
+
+<h2 class="relative group">what discernment actually is
+    <div id="what-discernment-actually-is" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-discernment-actually-is" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>discernment is the ability to thoughtfully evaluate what AI produces, how it produced it, and how it behaved during the process.</p>
+<p>it&rsquo;s the flip side of description. description shapes what goes in. discernment evaluates what comes out.</p>
+<p>and just like description, it has three dimensions.</p>
+<hr>
+
+<h2 class="relative group">product discernment — evaluate the output itself
+    <div id="product-discernment--evaluate-the-output-itself" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#product-discernment--evaluate-the-output-itself" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the most obvious layer. look at what AI actually produced and ask:</p>
+<ul>
+<li>is this accurate? can i verify the key claims?</li>
+<li>is it appropriate for the audience and context?</li>
+<li>is it coherent? does the logic hold together?</li>
+<li>is it relevant to what i actually asked?</li>
+<li>what&rsquo;s missing that should be there?</li>
+</ul>
+<p>for Security analysts — your domain expertise is your primary discernment tool here. you know what a good investigation summary looks like. you know when a threat description doesn&rsquo;t match what you&rsquo;ve seen in the environment. trust that knowledge.</p>
+<p>the dangerous moment is when you&rsquo;re evaluating output in a domain where you have less expertise. that&rsquo;s when confident-sounding wrong answers slip through. slow down in those moments.</p>
+<hr>
+
+<h2 class="relative group">process discernment — evaluate how AI got there
+    <div id="process-discernment--evaluate-how-ai-got-there" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#process-discernment--evaluate-how-ai-got-there" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>not just what AI produced, but how it arrived at it. the reasoning path matters.</p>
+<p>look for:</p>
+<ul>
+<li>logical errors or jumps in reasoning</li>
+<li>gaps in analysis — what did AI overlook or ignore?</li>
+<li>inappropriate reasoning steps — did it make assumptions it shouldn&rsquo;t have?</li>
+<li>whether it considered multiple possibilities or locked onto one early</li>
+</ul>
+<p><strong>SOC example</strong> — you ask AI to assess whether a series of events constitutes lateral movement. it says yes. product discernment checks the conclusion. process discernment asks — did it consider the legitimate admin activity baseline? did it account for the scheduled task that runs at that time? did it look at the full sequence or just the flagged events?</p>
+<p>the conclusion might be right. the reasoning might still be flawed. both matter.</p>
+<hr>
+
+<h2 class="relative group">performance discernment — evaluate how AI behaved
+    <div id="performance-discernment--evaluate-how-ai-behaved" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#performance-discernment--evaluate-how-ai-behaved" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the most overlooked dimension. was AI&rsquo;s behavior during the interaction actually helpful?</p>
+<p>consider:</p>
+<ul>
+<li>did it stay focused on your actual question or drift?</li>
+<li>was the communication style appropriate for your needs?</li>
+<li>did it ask clarifying questions when it should have?</li>
+<li>did it push back when something didn&rsquo;t add up — or just agree?</li>
+<li>was it concise when you needed concise, detailed when you needed detail?</li>
+</ul>
+<p>this matters because performance issues compound across a long conversation. an AI that agrees with everything you say isn&rsquo;t a thinking partner — it&rsquo;s an echo chamber. an AI that stays vague when you need precision is wasting your time.</p>
+<p>if the behavior isn&rsquo;t serving you — name it and redirect. &ldquo;you&rsquo;re being too generic, i need specific examples&rdquo; is a valid performance discernment response.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="the description to discernment loop" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">the description → discernment loop</text>
+    <line x1="100" y1="52" x2="520" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="38" y="90" width="118" height="110" fill="#111009" rx="2"/>
+    <text x="97" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.08em">DESCRIBE</text>
+    <line x1="53" y1="130" x2="141" y2="130" stroke="#2a2622" stroke-width="1"/>
+    <text x="97" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">you set</text>
+    <text x="97" y="172" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">the intent</text>
+
+    <text x="178" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="198" y="90" width="118" height="110" fill="#111009" rx="2"/>
+    <text x="257" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.08em">AI PRODUCES</text>
+    <line x1="213" y1="130" x2="301" y2="130" stroke="#2a2622" stroke-width="1"/>
+    <text x="257" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">a draft</text>
+    <text x="257" y="172" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">response</text>
+
+    <text x="338" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="358" y="90" width="118" height="110" fill="#111009" rx="2"/>
+    <text x="417" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.08em">DISCERN</text>
+    <line x1="373" y1="130" x2="461" y2="130" stroke="#2a2622" stroke-width="1"/>
+    <text x="417" y="155" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">you evaluate</text>
+    <text x="417" y="172" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">it critically</text>
+
+    <text x="498" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="518" y="90" width="64" height="110" fill="#111009" rx="2"/>
+    <text x="550" y="120" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8a56a" letter-spacing="0.06em">REFINE</text>
+    <line x1="528" y1="130" x2="572" y2="130" stroke="#2a2622" stroke-width="1"/>
+    <text x="550" y="158" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">again</text>
+
+    
+    <path d="M 550 200 C 550 250, 97 250, 97 205" fill="none" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,5"/>
+    <text x="323" y="240" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">loops back</text>
+
+    <line x1="80" y1="265" x2="540" y2="265" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">each cycle gets closer to what you need.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">the description-discernment loop
+    <div id="the-description-discernment-loop" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-description-discernment-loop" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>these two competencies work together continuously.</p>
+<p>you describe → AI produces → you discern → you refine your description → AI produces again → you discern again.</p>
+<p>this loop is how good collaborative work actually happens. not one perfect prompt and one perfect output. iterative cycles where each round gets closer to what you need.</p>
+<p>the loop also means discernment isn&rsquo;t just evaluation — it&rsquo;s input for the next description. what you notice in the output shapes how you communicate next.</p>
+<hr>
+
+<h2 class="relative group">a practical discernment habit for SOC work
+    <div id="a-practical-discernment-habit-for-soc-work" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-practical-discernment-habit-for-soc-work" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>before using any AI output in an investigation or report, ask three questions:</p>
+<ol>
+<li>can i verify the key facts independently?</li>
+<li>does the reasoning hold up against what i know about this environment?</li>
+<li>would i be comfortable explaining this conclusion without the AI output to back me up?</li>
+</ol>
+<p>if the answer to any of these is no — the output needs more work before it goes anywhere.</p>
+<hr>
+<p>next up — diligence. the competency that asks not just &ldquo;is this good?&rdquo; but &ldquo;am i using this responsibly?&rdquo;</p>
+<p>what&rsquo;s the most dangerous type of AI error in your SOC context — wrong facts, flawed reasoning, or misaligned behavior?</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-23/" >AI Series #23 — &ldquo;accountability doesn&rsquo;t disappear when AI helps you&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-22/featured.svg"/></item><item><title>the gap between what you mean and what AI understands</title><link>https://virtueofvague.com/mindsecset/ai-series-21/</link><pubDate>Thu, 09 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-21/</guid><description> AI Fluency · post 4 of 6 series index → AI isn’t vague. your instructions are.
+most disappointing AI outputs aren’t an AI problem. they’re a communication problem. the model responded to exactly what you said — just not what you meant. closing that gap is what description is about.
+description isn’t just writing better prompts. it’s building a collaborative environment where AI can actually do its best work.
+three dimensions of description # the AI fluency framework breaks description into three components. most people only think about one.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 4 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>AI isn&rsquo;t vague. your instructions are.</p>
+<p>most disappointing AI outputs aren&rsquo;t an AI problem. they&rsquo;re a communication problem. the model responded to exactly what you said — just not what you meant. closing that gap is what description is about.</p>
+<p>description isn&rsquo;t just writing better prompts. it&rsquo;s building a collaborative environment where AI can actually do its best work.</p>
+<hr>
+
+<h2 class="relative group">three dimensions of description
+    <div id="three-dimensions-of-description" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#three-dimensions-of-description" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the AI fluency framework breaks description into three components. most people only think about one.</p>
+<p><strong>product description — define what you want</strong></p>
+<p>the output. format, length, audience, style, level of detail.</p>
+<p>vague: &ldquo;summarise this alert.&rdquo;
+specific: &ldquo;summarise this alert in 3 bullet points for a non-technical stakeholder. focus on what happened, what the risk is, and what action is recommended.&rdquo;</p>
+<p>same task. very different results.</p>
+<p>for SOC work — be explicit about who the output is for. a summary for a CISO reads differently than one for a tier 1 analyst. AI doesn&rsquo;t know your audience unless you tell it.</p>
+<p><strong>process description — guide how AI approaches the task</strong></p>
+<p>not just what you want, but how you want AI to get there. the methodology, the steps, the framework to follow.</p>
+<p>vague: &ldquo;analyse this log data.&rdquo;
+specific: &ldquo;analyse this log data by first identifying anomalous timestamps, then cross-referencing with the associated user account activity, then flagging anything that deviates from the baseline behaviour described below.&rdquo;</p>
+<p>process description is particularly powerful for complex, multi-step SOC tasks where the approach matters as much as the output.</p>
+<p><strong>performance description — define how AI should behave</strong></p>
+<p>the collaboration style. should AI be concise or detailed? challenging or supportive? should it ask clarifying questions or make assumptions and proceed?</p>
+<p>this is the most overlooked dimension of description. most people never specify it — then wonder why the interaction feels off.</p>
+<p>examples:</p>
+<ul>
+<li>&ldquo;be concise. one paragraph maximum per point.&rdquo;</li>
+<li>&ldquo;challenge my assumptions. push back if something doesn&rsquo;t hold up.&rdquo;</li>
+<li>&ldquo;ask me clarifying questions before starting.&rdquo;</li>
+<li>&ldquo;think step by step and show your reasoning.&rdquo;</li>
+</ul>
+<p>for SOC investigations — telling AI to challenge your assumptions is genuinely useful. it surfaces blind spots you might miss under time pressure.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="three dimensions of description" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">three dimensions of description</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="55" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="135" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">PRODUCT</text>
+    <line x1="70" y1="110" x2="200" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="135" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">what you</text>
+    <text x="135" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">want</text>
+    <text x="135" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">format, audience</text>
+
+    
+    <rect x="230" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="310" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">PROCESS</text>
+    <line x1="245" y1="110" x2="375" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">how to get</text>
+    <text x="310" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">there</text>
+    <text x="310" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">steps, method</text>
+
+    
+    <rect x="405" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="485" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.1em">PERFORMANCE</text>
+    <line x1="420" y1="110" x2="550" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="485" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">how AI</text>
+    <text x="485" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">should behave</text>
+    <text x="485" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" font-style="italic">tone, style</text>
+
+    <line x1="80" y1="255" x2="540" y2="255" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">what, how, and how it behaves.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">six prompting techniques worth knowing
+    <div id="six-prompting-techniques-worth-knowing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#six-prompting-techniques-worth-knowing" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>these are practical, not theoretical. use them.</p>
+<p><strong>1. give context</strong>
+who you are, what you&rsquo;re working on, why it matters. &ldquo;i&rsquo;m an L2 security analyst investigating a potential phishing incident affecting a finance team member&rdquo; lands very differently than &ldquo;help me with phishing.&rdquo;</p>
+<p><strong>2. show examples</strong>
+demonstrate the output you want. paste a previous report you liked. show a format that worked. AI learns from examples faster than from descriptions alone.</p>
+<p><strong>3. specify constraints</strong>
+format, length, tone, what to include, what to exclude. be explicit. &ldquo;under 150 words, bullet points, no jargon, include a recommended action&rdquo; removes ambiguity entirely.</p>
+<p><strong>4. break complex tasks into steps</strong>
+chain-of-thought prompting. list the specific steps you want AI to follow. especially useful for multi-stage investigations or analysis tasks where order matters.</p>
+<p><strong>5. ask AI to think first</strong>
+explicitly instruct AI to work through its reasoning before giving a final answer. &ldquo;think through this carefully before responding&rdquo; consistently improves output quality on complex tasks.</p>
+<p><strong>6. define the role or tone</strong>
+assign a perspective. &ldquo;respond as a senior threat intelligence analyst reviewing this for a junior colleague&rdquo; shapes both expertise level and communication style in one instruction.</p>
+<hr>
+
+<h2 class="relative group">one technique worth calling out separately
+    <div id="one-technique-worth-calling-out-separately" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#one-technique-worth-calling-out-separately" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>if you&rsquo;re struggling to write a good prompt — ask AI to help you write it.</p>
+<p>&ldquo;i need to ask you about X but i&rsquo;m not sure how to frame it. can you help me write a better prompt?&rdquo; works surprisingly well and saves significant back and forth.</p>
+<hr>
+
+<h2 class="relative group">the iteration mindset
+    <div id="the-iteration-mindset" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-iteration-mindset" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>first response is a draft. not a final answer.</p>
+<p>description isn&rsquo;t a one-shot exercise. it&rsquo;s a conversation. if the output isn&rsquo;t right — refine, redirect, give feedback. &ldquo;this is good but too formal, make it more direct&rdquo; is a valid next prompt.</p>
+<p>the analysts who get the best results from AI aren&rsquo;t the ones who write perfect prompts first time. they&rsquo;re the ones who iterate quickly and know what good looks like.</p>
+<hr>
+<p>next up — discernment. because description gets you better outputs, but discernment is what stops you from using bad ones.</p>
+<p>which of the three description components — product, process, or performance — do you currently use least? that&rsquo;s probably where your biggest gains are.</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-22/" >AI Series #22 — &ldquo;just because it sounds right doesn&rsquo;t mean it is&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-21/featured.svg"/></item><item><title>not everything should go to AI — the art of delegation</title><link>https://virtueofvague.com/mindsecset/ai-series-20/</link><pubDate>Tue, 07 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-20/</guid><description> AI Fluency · post 3 of 6 series index → the first mistake most people make with AI is delegating too early.
+they open a prompt window before they’ve clearly defined what they need. they hand over tasks AI isn’t suited for. they skip the thinking that should happen before any AI is involved.
+delegation isn’t about offloading work. it’s about distributing it intelligently.
+what delegation actually means # in the AI fluency framework, delegation is the strategic process of deciding what work to do yourself, what to collaborate on with AI, and what to let AI handle independently.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 3 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>the first mistake most people make with AI is delegating too early.</p>
+<p>they open a prompt window before they&rsquo;ve clearly defined what they need. they hand over tasks AI isn&rsquo;t suited for. they skip the thinking that should happen before any AI is involved.</p>
+<p>delegation isn&rsquo;t about offloading work. it&rsquo;s about distributing it intelligently.</p>
+<hr>
+
+<h2 class="relative group">what delegation actually means
+    <div id="what-delegation-actually-means" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-delegation-actually-means" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>in the AI fluency framework, delegation is the strategic process of deciding what work to do yourself, what to collaborate on with AI, and what to let AI handle independently.</p>
+<p>it sounds simple. it isn&rsquo;t. good delegation requires two things most people don&rsquo;t stop to develop — problem awareness and platform awareness.</p>
+<hr>
+
+<h2 class="relative group">problem awareness — understand the work before involving AI
+    <div id="problem-awareness--understand-the-work-before-involving-ai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#problem-awareness--understand-the-work-before-involving-ai" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>before you open a prompt window, you need to clearly understand what you&rsquo;re trying to achieve.</p>
+<p>this means:</p>
+<ul>
+<li>what does a good result actually look like?</li>
+<li>what are the different components of this task?</li>
+<li>where does human judgment, creativity, or domain expertise matter most?</li>
+<li>where is AI likely to add the most value?</li>
+</ul>
+<p><strong>SOC example</strong> — you&rsquo;re investigating a potential lateral movement alert. before delegating anything to AI, you need to know: what am i actually trying to determine here? what context do i already have? what does a good investigation summary look like?</p>
+<p>without that clarity, you&rsquo;ll get a generic output that doesn&rsquo;t serve the investigation. with it, you can delegate specific, well-defined pieces — and keep the judgment calls for yourself.</p>
+<p>domain expertise is the foundation of effective delegation. you can&rsquo;t intelligently decide what to give AI if you don&rsquo;t deeply understand the work yourself.</p>
+<hr>
+
+<h2 class="relative group">platform awareness — know what different AI systems can do
+    <div id="platform-awareness--know-what-different-ai-systems-can-do" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#platform-awareness--know-what-different-ai-systems-can-do" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>not all AI systems are equal. different models have different strengths — some prioritise speed, some accuracy, some creative output, some reasoning depth.</p>
+<p>platform awareness means:</p>
+<ul>
+<li>understanding the capabilities and limitations of the tools you use</li>
+<li>knowing which tool fits which type of task</li>
+<li>experimenting enough to build genuine intuition</li>
+</ul>
+<p>for Security analysts — Claude, ChatGPT, Copilot, and specialised security AI tools each have different strengths. using the wrong tool for the wrong task is a delegation failure even before you write a single prompt.</p>
+<p>this isn&rsquo;t about memorising feature lists. it&rsquo;s about building hands-on experience and being deliberate about which platform you reach for and why.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="where does this task belong — automate, augment, or keep human" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">where does this task belong?</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="55" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="135" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">AUTOMATE</text>
+    <line x1="70" y1="110" x2="200" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="135" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">minimal</text>
+    <text x="135" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">oversight</text>
+    <text x="135" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">formatting, drafts</text>
+
+    <text x="235" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="230" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="310" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">AUGMENT</text>
+    <line x1="245" y1="110" x2="375" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">iterative</text>
+    <text x="310" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">collaboration</text>
+    <text x="310" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">investigations, reports</text>
+
+    <text x="410" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="405" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <text x="485" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.1em">KEEP HUMAN</text>
+    <line x1="420" y1="110" x2="550" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="485" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">judgment</text>
+    <text x="485" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">accountability</text>
+    <text x="485" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" font-style="italic">final verdicts</text>
+
+    <line x1="80" y1="255" x2="540" y2="255" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">not everything should go to AI.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">task delegation — distributing work intelligently
+    <div id="task-delegation--distributing-work-intelligently" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#task-delegation--distributing-work-intelligently" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>once you understand the work and the tools, you can make intelligent delegation decisions. three categories:</p>
+<p><strong>automate</strong> — tasks AI can handle independently with minimal oversight. formatting, summarising structured data, generating first drafts from clear briefs, translating, extracting information from documents.</p>
+<p><strong>augment</strong> — tasks where human and AI work together iteratively. investigation analysis, report writing, threat hunting hypotheses, detection rule drafting. you bring domain expertise and judgment, AI brings speed and pattern recognition.</p>
+<p><strong>keep human</strong> — tasks requiring critical judgment, ethical decisions, or accountability. final escalation decisions, stakeholder communications on sensitive incidents, anything where being wrong has serious consequences.</p>
+<hr>
+
+<h2 class="relative group">what Security analysts should never fully delegate
+    <div id="what-security-analysts-should-never-fully-delegate" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-security-analysts-should-never-fully-delegate" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>a few things worth naming explicitly:</p>
+<ul>
+<li><strong>final verdict on an alert</strong> — AI can inform, never decide</li>
+<li><strong>sensitive stakeholder communication</strong> — tone, context, and judgment matter too much</li>
+<li><strong>novel threat assessment</strong> — AI&rsquo;s knowledge has a cutoff. your current context doesn&rsquo;t</li>
+<li><strong>anything requiring organisational accountability</strong> — you sign off on it, you own it</li>
+</ul>
+<hr>
+
+<h2 class="relative group">a simple delegation question to ask before every task
+    <div id="a-simple-delegation-question-to-ask-before-every-task" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-simple-delegation-question-to-ask-before-every-task" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>&ldquo;what part of this genuinely requires my expertise, and what part is execution that AI can handle?&rdquo;</p>
+<p>that single question, asked consistently, changes how you work.</p>
+<hr>
+<p>next up — description. once you&rsquo;ve decided what to delegate, how you communicate it determines everything.</p>
+<p>what&rsquo;s one task you currently delegate to AI that probably deserves more of your judgment?</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-21/" >AI Series #21 — &ldquo;the gap between what you mean and what AI understands&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-20/featured.svg"/></item><item><title>the AI fluency framework — a smarter way to think about working with AI</title><link>https://virtueofvague.com/mindsecset/ai-series-19/</link><pubDate>Sun, 05 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-19/</guid><description> AI Fluency · post 2 of 6 series index → before you can work with AI fluently, you need to understand what you’re actually working with.
+not at a PhD level. but enough to know why it behaves the way it does, where it’s reliable, and where it isn’t. that understanding changes how you work with it.
+what generative AI actually is # most AI you’ve encountered before generative AI was analytical — it classified, predicted, detected. generative AI does something different. it creates. text, images, code, audio — new content that didn’t exist before.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 2 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>before you can work with AI fluently, you need to understand what you&rsquo;re actually working with.</p>
+<p>not at a PhD level. but enough to know why it behaves the way it does, where it&rsquo;s reliable, and where it isn&rsquo;t. that understanding changes how you work with it.</p>
+<hr>
+
+<h2 class="relative group">what generative AI actually is
+    <div id="what-generative-ai-actually-is" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-generative-ai-actually-is" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>most AI you&rsquo;ve encountered before generative AI was analytical — it classified, predicted, detected. generative AI does something different. it creates. text, images, code, audio — new content that didn&rsquo;t exist before.</p>
+<p>large language models like Claude are the most visible example. trained on vast amounts of text, they learn to predict and generate human language at a level that feels remarkably natural.</p>
+<p>three things made this possible:</p>
+<p><strong>algorithmic breakthrough</strong> — the transformer architecture in 2017. enabled models to process entire sequences of text in parallel while understanding relationships between words across long passages. everything changed after this.</p>
+<p><strong>data</strong> — the internet. books. code. decades of human-generated text at massive scale. the raw material that made training possible.</p>
+<p><strong>compute</strong> — GPUs and TPUs powerful enough to train models with billions of parameters. scale unlocked capabilities nobody explicitly programmed.</p>
+<hr>
+
+<h2 class="relative group">how these models learn
+    <div id="how-these-models-learn" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-these-models-learn" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>two stages:</p>
+<p><strong>pre-training</strong> — the model analyzes billions of examples of text, building a statistical map of language. it learns patterns, relationships, facts, reasoning styles — all by learning to predict what comes next.</p>
+<p><strong>fine-tuning</strong> — after pre-training, the model is further trained to follow instructions, be helpful, and avoid harmful outputs. this is where raw capability gets shaped into something useful and safe.</p>
+<hr>
+
+<h2 class="relative group">what they can and can&rsquo;t do
+    <div id="what-they-can-and-cant-do" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-they-can-and-cant-do" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>honest and balanced — because this matters for how you use them.</p>
+<p><strong>capabilities:</strong></p>
+<ul>
+<li>versatile across language tasks — writing, summarising, translating, explaining</li>
+<li>maintains conversational context across long exchanges</li>
+<li>connects to external tools and data sources</li>
+<li>adapts to new tasks from examples without retraining</li>
+</ul>
+<p><strong>limitations:</strong></p>
+<ul>
+<li><strong>knowledge cutoff</strong> — no awareness of events after training date</li>
+<li><strong>hallucinations</strong> — confidently states incorrect information. sounds plausible. isn&rsquo;t always true.</li>
+<li><strong>context window limits</strong> — maximum information it can hold at once. long conversations can cause earlier context to drop</li>
+<li><strong>non-determinism</strong> — same prompt can produce different answers each time</li>
+<li><strong>reasoning challenges</strong> — improving rapidly but still struggles with complex multi-step logic</li>
+<li><strong>no access to private data</strong> — unless explicitly connected</li>
+</ul>
+<p>for Security analysts — hallucinations and knowledge cutoffs are the most dangerous limitations. a confident-sounding wrong answer about a threat actor or CVE is worse than no answer.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="the 4Ds of AI fluency" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">the 4Ds of AI fluency</text>
+    <line x1="80" y1="52" x2="540" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="38" y="80" width="118" height="130" fill="#111009" rx="2"/>
+    <text x="97" y="106" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">1 · DELEGATION</text>
+    <line x1="53" y1="115" x2="141" y2="115" stroke="#2a2622" stroke-width="1"/>
+    <text x="97" y="140" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">what to</text>
+    <text x="97" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">hand over</text>
+    <text x="97" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">before the prompt</text>
+
+    <text x="178" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="198" y="80" width="118" height="130" fill="#111009" rx="2"/>
+    <text x="257" y="106" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">2 · DESCRIPTION</text>
+    <line x1="213" y1="115" x2="301" y2="115" stroke="#2a2622" stroke-width="1"/>
+    <text x="257" y="140" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">communicate</text>
+    <text x="257" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">with intent</text>
+    <text x="257" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">what goes in</text>
+
+    <text x="338" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="358" y="80" width="118" height="130" fill="#111009" rx="2"/>
+    <text x="417" y="106" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">3 · DISCERNMENT</text>
+    <line x1="373" y1="115" x2="461" y2="115" stroke="#2a2622" stroke-width="1"/>
+    <text x="417" y="140" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">evaluate</text>
+    <text x="417" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">critically</text>
+    <text x="417" y="188" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">what comes back</text>
+
+    <text x="498" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="518" y="80" width="64" height="130" fill="#111009" rx="2"/>
+    <text x="550" y="106" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8a56a" letter-spacing="0.08em">4 · DILIG.</text>
+    <line x1="528" y1="115" x2="572" y2="115" stroke="#2a2622" stroke-width="1"/>
+    <text x="550" y="140" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">own</text>
+    <text x="550" y="157" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">it</text>
+
+    <line x1="80" y1="240" x2="540" y2="240" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="263" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">work with AI effectively, ethically, safely.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">the AI fluency framework — the 4Ds
+    <div id="the-ai-fluency-framework--the-4ds" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-ai-fluency-framework--the-4ds" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>knowing what AI is gets you halfway. knowing how to work with it gets you the rest of the way.</p>
+<p>the 4D framework is a set of four core competencies for working with AI effectively, efficiently, ethically, and safely.</p>
+<p><strong>Delegation</strong> — deciding what work to do yourself, what to collaborate on with AI, and what to let AI handle independently. requires understanding both your goals and AI&rsquo;s capabilities.</p>
+<p><strong>Description</strong> — communicating clearly with AI. defining what you want, how you want it approached, and how you want AI to behave during the collaboration.</p>
+<p><strong>Discernment</strong> — evaluating what comes back. assessing the quality, accuracy, and appropriateness of AI outputs with a critical eye.</p>
+<p><strong>Diligence</strong> — taking responsibility for AI-assisted work. being transparent about AI&rsquo;s role and accountable for the final output.</p>
+<p>each post in this series goes deep on one of these. but they work together — fluency comes from applying all four, not just one.</p>
+<hr>
+
+<h2 class="relative group">three ways to work with AI
+    <div id="three-ways-to-work-with-ai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#three-ways-to-work-with-ai" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the 4Ds apply across three different modes of AI interaction:</p>
+<p><strong>Automation</strong> — AI executes specific tasks based on your instructions. you define what needs doing, AI does it.</p>
+<p><strong>Augmentation</strong> — you and AI collaborate as thinking partners. iterative, back and forth, both contributing to the outcome.</p>
+<p><strong>Agency</strong> — you configure AI to work independently on your behalf. you shape its knowledge and behavior rather than specifying exact actions.</p>
+<p>most Security analysts operate in automation mode — one-off prompts, specific outputs. fluency opens up augmentation and eventually agency. that&rsquo;s where the real leverage is.</p>
+<hr>
+<p>next up — delegation. the competency that starts before you ever open a prompt window.</p>
+<p>which mode do you currently use most — automation, augmentation, or agency?</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-20/" >AI Series #20 — &ldquo;not everything should go to AI — the art of delegation&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-19/featured.svg"/></item><item><title>there is a difference between using AI and being fluent with it.</title><link>https://virtueofvague.com/mindsecset/ai-series-18/</link><pubDate>Fri, 03 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-18/</guid><description> AI Fluency · post 1 of 6 series index → there is a difference between using AI and being fluent with it.
+most Security analysts i know have Claude or ChatGPT open. they use it daily. ask questions, get answers, move on. and that’s fine — it’s useful at that level.
+but fluency is something different. fluency is knowing how to work with AI. not just what to ask, but how to ask it, how to evaluate what comes back, how to decide what to hand over and what to keep, and how to take responsibility for the output.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">AI Fluency</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 1 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>there is a difference between using AI and being fluent with it.</p>
+<p>most Security analysts i know have Claude or ChatGPT open. they use it daily. ask questions, get answers, move on. and that&rsquo;s fine — it&rsquo;s useful at that level.</p>
+<p>but fluency is something different. fluency is knowing <em>how</em> to work with AI. not just what to ask, but how to ask it, how to evaluate what comes back, how to decide what to hand over and what to keep, and how to take responsibility for the output.</p>
+<p>the difference shows in the results.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="using AI vs being fluent with AI" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">using AI vs. being fluent with it</text>
+    <line x1="80" y1="52" x2="540" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="55" y="68" width="225" height="178" fill="#111009" rx="2"/>
+    <text x="168" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" letter-spacing="0.12em">USING AI</text>
+    <line x1="70" y1="106" x2="265" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="168" y="130" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">ask a question</text>
+    <text x="168" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">get an answer</text>
+    <text x="168" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">move on</text>
+    <text x="168" y="218" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52" font-style="italic">useful. but that's the ceiling.</text>
+
+    
+    <line x1="307" y1="90" x2="307" y2="230" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <text x="307" y="163" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#c8a56a">→</text>
+
+    
+    <rect x="340" y="68" width="225" height="178" fill="#111009" rx="2"/>
+    <text x="453" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.12em">FLUENT WITH AI</text>
+    <line x1="355" y1="106" x2="550" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="453" y="130" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">delegates with intent</text>
+    <text x="453" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">evaluates the output</text>
+    <text x="453" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">owns the result</text>
+    <text x="453" y="218" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8a56a" font-style="italic">the ceiling becomes the floor.</text>
+
+    <line x1="80" y1="265" x2="540" y2="265" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">same tool. different level of skill.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">why this matters for SOC work specifically
+    <div id="why-this-matters-for-soc-work-specifically" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-this-matters-for-soc-work-specifically" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>we deal with complexity every single day. ambiguous alerts. incomplete context. time pressure. high stakes decisions.</p>
+<p>AI can help with all of it — but only if you know how to use it properly. a poorly delegated task gives you a confident-sounding answer that&rsquo;s wrong. a vague prompt gives you a generic response that wastes your time. an unchecked output that goes into a report damages your credibility.</p>
+<p>fluency isn&rsquo;t about being an AI expert. it&rsquo;s about being intentional with a tool you&rsquo;re already using.</p>
+<hr>
+
+<h2 class="relative group">what this series covers
+    <div id="what-this-series-covers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-this-series-covers" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>5 posts built on Anthropic&rsquo;s AI Fluency course — filtered through a Security analyst&rsquo;s lens.</p>
+<ul>
+<li>the AI fluency framework and what generative AI actually is</li>
+<li>delegation — deciding what to give AI and what to keep</li>
+<li>description — communicating with intention and clarity</li>
+<li>discernment — evaluating what comes back with a critical eye</li>
+<li>diligence — taking responsibility for AI-assisted work</li>
+</ul>
+<p>more reflective than the previous two series. less about features and algorithms, more about how you think when working with AI.</p>
+<hr>
+
+<h2 class="relative group">one resource worth bookmarking
+    <div id="one-resource-worth-bookmarking" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#one-resource-worth-bookmarking" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>every post in this series links to a cheat sheet — key terms and concepts from the AI fluency framework in one place. useful to have open as you read.</p>
+<p>link at the end of each post.</p>
+<hr>
+<p>if you&rsquo;ve read the AI fundamentals series or the Claude 101 series — this is the missing piece. the first two covered what AI is and how to use the tools. this one covers how to think about working with AI well.</p>
+<p>which of these do you do most often — delegate too much to AI, not enough, or somewhere in between?</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-19/" >AI Series #19 — &ldquo;the AI fluency framework — a smarter way to think about working with AI&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fluency-cheat-sheet/" >AI Fluency Cheat Sheet</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-18/featured.svg"/></item></channel></rss>

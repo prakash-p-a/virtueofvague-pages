@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1600" height="900" fill="var(--hero-bg-1)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Four nodes arranged in a closed circular system -->
+  <circle cx="800" cy="450" r="230" fill="none" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.2"/>
+
+  <circle cx="800" cy="220" r="34" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="1030" cy="450" r="34" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="800" cy="680" r="34" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="570" cy="450" r="34" fill="none" stroke="var(--hero-gold)" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Connecting loop -->
+  <path d="M 800 254 A 230 230 0 0 1 1030 484" fill="none" stroke="var(--hero-stone)" stroke-width="1" opacity="0.3" stroke-dasharray="4,6"/>
+  <path d="M 1030 484 A 230 230 0 0 1 800 646" fill="none" stroke="var(--hero-stone)" stroke-width="1" opacity="0.3" stroke-dasharray="4,6"/>
+  <path d="M 800 646 A 230 230 0 0 1 570 484" fill="none" stroke="var(--hero-gold)" stroke-width="1" opacity="0.35" stroke-dasharray="4,6"/>
+  <path d="M 570 416 A 230 230 0 0 1 800 254" fill="none" stroke="var(--hero-gold)" stroke-width="1" opacity="0.35" stroke-dasharray="4,6"/>
+
+  <!-- Centre: ownership -->
+  <circle cx="800" cy="450" r="10" fill="var(--hero-gold)" opacity="0.65"/>
+
+  <!-- Series number -->
+  <text x="1530" y="75" text-anchor="end" font-family="Georgia,serif" font-size="52" fill="var(--hero-stone)" opacity="0.25">#23</text>
+</svg>

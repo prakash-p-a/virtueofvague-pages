@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Claude 101 on Virtue Of Vague</title><link>https://virtueofvague.com/tags/Claude101/</link><description>Recent content in Claude 101 on Virtue Of Vague</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>prakashpayyanagoudar@gmail.com (Virtue of Vague)</managingEditor><webMaster>prakashpayyanagoudar@gmail.com (Virtue of Vague)</webMaster><copyright>© 2026 Virtue of Vague</copyright><lastBuildDate>Wed, 01 Jul 2026 10:00:00 +0530</lastBuildDate><atom:link href="https://virtueofvague.com/tags/Claude101/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude everywhere — desktop, code, slack, excel, chrome</title><link>https://virtueofvague.com/mindsecset/ai-series-17/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-17/</guid><description> Claude 101 · post 6 of 6 series index → Claude.ai is just one door into the same intelligence. there are several others worth knowing.
+same Claude underneath. different interfaces built around different types of work. knowing which one to reach for — and when — is what separates occasional use from a genuine workflow upgrade.
+the desktop app — three modes, one install # the Claude desktop app gives you three distinct ways to work depending on what the task needs.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 6 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>Claude.ai is just one door into the same intelligence. there are several others worth knowing.</p>
+<p>same Claude underneath. different interfaces built around different types of work. knowing which one to reach for — and when — is what separates occasional use from a genuine workflow upgrade.</p>
+<hr>
+
+<h2 class="relative group">the desktop app — three modes, one install
+    <div id="the-desktop-app--three-modes-one-install" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-desktop-app--three-modes-one-install" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>the Claude desktop app gives you three distinct ways to work depending on what the task needs.</p>
+<p><strong>Chat</strong> — same as claude.ai, plus features that come from running natively on your machine.</p>
+<ul>
+<li>quick entry — double tap Option key on Mac, Claude appears as an overlay over whatever you&rsquo;re working on. ask a question without leaving your current app.</li>
+<li>screenshots and window sharing — capture exactly what&rsquo;s on your screen instead of describing it</li>
+<li>dictation — talk through a problem instead of typing</li>
+<li>desktop connectors — connect local tools and services</li>
+</ul>
+<p>best for — quick questions, drafting, back and forth thinking while you&rsquo;re deep in other work.</p>
+<p><strong>Cowork</strong> — agentic. you give it a goal, it does the work.</p>
+<ul>
+<li>works across multiple sources simultaneously using subagents</li>
+<li>reads and writes to folders you share</li>
+<li>scheduled tasks — set recurring work once, Claude handles it automatically every time the app is open</li>
+<li>browser use — navigates websites, pulls data, interacts with pages</li>
+<li>computer use — when no connector exists, Claude navigates your screen directly</li>
+</ul>
+<p>best for — research briefs, cross-source analysis, document production, recurring workflows. anything that would take you multiple tabs and significant time.</p>
+<p><strong>Code</strong> — full development environment inside the desktop app.</p>
+<ul>
+<li>reads and modifies your codebase directly</li>
+<li>visual diffs show exactly what changed</li>
+<li>built-in terminal, git integration</li>
+<li>local or remote via GitHub</li>
+</ul>
+<p>three interaction modes:</p>
+<ul>
+<li><strong>Ask</strong> — Claude proposes every change, you approve before anything is modified</li>
+<li><strong>Code</strong> — applies file changes automatically, checks before running terminal commands</li>
+<li><strong>Plan</strong> — outlines full approach before touching anything</li>
+</ul>
+<p>best for — building features, debugging, navigating unfamiliar codebases, automating repetitive dev tasks.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="same Claude. many doors." viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">same Claude. many doors.</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="42" y="68" width="172" height="178" fill="#111009" rx="2"/>
+    <text x="128" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.12em">BROWSER</text>
+    <line x1="57" y1="106" x2="199" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="128" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">claude.ai</text>
+    <text x="128" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">Claude for Chrome</text>
+    <text x="128" y="173" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">general tasks</text>
+    <text x="128" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">web research</text>
+    <text x="128" y="205" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">writing + analysis</text>
+
+    
+    <rect x="224" y="68" width="172" height="178" fill="#111009" rx="2"/>
+    <text x="310" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.12em">DESKTOP APP</text>
+    <line x1="239" y1="106" x2="381" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">Chat · Cowork · Code</text>
+    <text x="310" y="153" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">quick overlay</text>
+    <text x="310" y="169" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">agentic workflows</text>
+    <text x="310" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">local codebase</text>
+
+    
+    <rect x="406" y="68" width="172" height="178" fill="#111009" rx="2"/>
+    <text x="492" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.12em">INTEGRATIONS</text>
+    <line x1="421" y1="106" x2="563" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="492" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">Slack · Excel</text>
+    <text x="492" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">Claude Code (CLI)</text>
+    <text x="492" y="173" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">where you already work</text>
+    <text x="492" y="189" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">no context switching</text>
+
+    <line x1="80" y1="265" x2="540" y2="265" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">find the door that fits how you work</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">Claude Code — for developers
+    <div id="claude-code--for-developers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#claude-code--for-developers" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Claude Code runs in your terminal, IDE, or browser. direct access to your codebase, no separate interface needed.</p>
+<p>when to use it:</p>
+<ul>
+<li>build features by describing what you need in plain english</li>
+<li>debug by pasting error messages — Claude traces the issue across your codebase</li>
+<li>navigate unfamiliar code — ask how different parts connect</li>
+<li>automate repetitive tasks — lint fixes, merge conflicts, release notes</li>
+</ul>
+<p>also works inside Slack — tag @Claude on a bug report or feature discussion and it can spin up a Claude Code session using the surrounding thread as context.</p>
+<hr>
+
+<h2 class="relative group">Claude in Slack — collaboration in context
+    <div id="claude-in-slack--collaboration-in-context" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#claude-in-slack--collaboration-in-context" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Claude lives directly in your Slack workspace. chat with it from any channel or mention @Claude in threads.</p>
+<p>when to use it:</p>
+<ul>
+<li>summarise lengthy threads without leaving Slack</li>
+<li>draft responses to messages in context</li>
+<li>prepare for meetings by pulling relevant conversations and shared files</li>
+<li>quick answers during live discussions — industry context, technical concepts, company information</li>
+</ul>
+<p><strong>SOC relevance</strong> — incident channels move fast. Claude in Slack can summarise what&rsquo;s happened, draft stakeholder updates, and pull context from previous threads while the investigation is still live.</p>
+<hr>
+
+<h2 class="relative group">Claude for Excel — spreadsheets without the pain
+    <div id="claude-for-excel--spreadsheets-without-the-pain" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#claude-for-excel--spreadsheets-without-the-pain" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Claude in a sidebar inside Microsoft Excel. reads, analyzes, and modifies your workbook through conversation.</p>
+<p>when to use it:</p>
+<ul>
+<li>understand complex multi-tab workbooks and formula dependencies</li>
+<li>debug errors — #REF!, #VALUE!, circular references traced to source</li>
+<li>update assumptions across a model while preserving relationships</li>
+<li>build pivot tables, charts, new templates</li>
+</ul>
+<p>useful beyond finance — SOC metrics dashboards, detection coverage tracking, vulnerability data analysis.</p>
+<hr>
+
+<h2 class="relative group">Claude for Chrome — browser as workspace
+    <div id="claude-for-chrome--browser-as-workspace" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#claude-for-chrome--browser-as-workspace" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Claude as a sidebar in Chrome. observes what you&rsquo;re working on, takes actions in your browser.</p>
+<p>when to use it:</p>
+<ul>
+<li>summarise articles and research papers while browsing</li>
+<li>draft email responses without leaving your inbox</li>
+<li>automate repetitive form filling</li>
+<li>maintain context across tabs during multi-step research</li>
+</ul>
+<p>currently in research preview — recommended for low-risk tasks on trusted sites. high-risk actions like purchases require explicit permission. certain site categories blocked by default.</p>
+<hr>
+
+<h2 class="relative group">which one when — quick reference
+    <div id="which-one-when--quick-reference" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#which-one-when--quick-reference" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>tool</th>
+					<th>best for</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Claude.ai</td>
+					<td>general tasks, research, writing, analysis</td>
+			</tr>
+			<tr>
+					<td>Desktop Chat</td>
+					<td>quick questions while working in other apps</td>
+			</tr>
+			<tr>
+					<td>Desktop Cowork</td>
+					<td>complex multi-step work, recurring workflows</td>
+			</tr>
+			<tr>
+					<td>Desktop Code</td>
+					<td>software development, codebase work</td>
+			</tr>
+			<tr>
+					<td>Claude Code</td>
+					<td>terminal-based development, IDE integration</td>
+			</tr>
+			<tr>
+					<td>Claude in Slack</td>
+					<td>team collaboration, incident context, meeting prep</td>
+			</tr>
+			<tr>
+					<td>Claude for Excel</td>
+					<td>spreadsheet analysis, financial and data modelling</td>
+			</tr>
+			<tr>
+					<td>Claude for Chrome</td>
+					<td>web research, email, browser automation</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<p><strong>and that&rsquo;s the series.</strong></p>
+<p>six posts. from what Claude actually is to where it shows up across your entire workflow. the goal was never to make you an AI expert. just to help you use the tool you already have — properly.</p>
+<p>same intelligence. many doors. find the ones that fit how you work.</p>
+<p>thanks for reading. genuinely.</p>
+<p>what&rsquo;s the one Claude feature from this series you&rsquo;re going to try first?</p>
+<hr>
+<p><em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index — still figuring out AI, one post at a time</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-17/featured.svg"/></item><item><title>Claude meets your tools — connectors and enterprise search</title><link>https://virtueofvague.com/mindsecset/ai-series-15/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-15/</guid><description> Claude 101 · post 4 of 6 series index → Claude is only as useful as the context it has. connectors solve that.
+without connectors, you’re manually bridging the gap — copy pasting emails, uploading documents, re-explaining your tools every conversation. connectors remove that friction. Claude works directly with your actual data, in the tools you already use.
+what connectors are # connectors link Claude to external services and applications. instead of starting every conversation from scratch, Claude can read, search, and in some cases act within your connected tools.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 4 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>Claude is only as useful as the context it has. connectors solve that.</p>
+<p>without connectors, you&rsquo;re manually bridging the gap — copy pasting emails, uploading documents, re-explaining your tools every conversation. connectors remove that friction. Claude works directly with your actual data, in the tools you already use.</p>
+<hr>
+
+<h2 class="relative group">what connectors are
+    <div id="what-connectors-are" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-connectors-are" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>connectors link Claude to external services and applications. instead of starting every conversation from scratch, Claude can read, search, and in some cases act within your connected tools.</p>
+<p>powered by the <strong>Model Context Protocol (MCP)</strong> — think of it as USB-C for AI. a universal standard that lets Claude connect to any application through a single consistent interface. open standard, growing ecosystem, works seamlessly across tools.</p>
+<p>two types:</p>
+<p><strong>web connectors</strong> — cloud services. Google Drive, Slack, Notion, Asana, Gmail, Linear, Stripe, and many more. connect once, Claude references them across conversations.</p>
+<p><strong>desktop extensions</strong> — local tools through the Claude desktop app. local file access, browser control, native application integration like Figma.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="connectors via MCP" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">connectors via MCP</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <circle cx="310" cy="163" r="40" fill="#111009" stroke="#c8a56a" stroke-width="1.5" opacity="0.85"/>
+    <text x="310" y="159" text-anchor="middle" font-family="Georgia,serif" font-size="12" fill="#e8e4dc">Claude</text>
+    <text x="310" y="175" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#a89880" letter-spacing="0.1em">+ your data</text>
+
+    
+    <line x1="279" y1="131" x2="190" y2="90" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="177" cy="83" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="177" y="88" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">Slack</text>
+
+    
+    <line x1="341" y1="131" x2="432" y2="90" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="445" cy="83" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="445" y="88" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">Drive</text>
+
+    
+    <line x1="270" y1="163" x2="162" y2="163" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="140" cy="163" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="140" y="159" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8c0b4">tickets</text>
+    <text x="140" y="171" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8c0b4">+ more</text>
+
+    
+    <line x1="350" y1="163" x2="458" y2="163" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="480" cy="163" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="480" y="168" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">Notion</text>
+
+    
+    <line x1="283" y1="197" x2="198" y2="232" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="182" cy="244" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="182" y="249" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8c0b4">Gmail</text>
+
+    
+    <line x1="337" y1="197" x2="420" y2="232" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <circle cx="436" cy="244" r="22" fill="#111009" stroke="#3a3630" stroke-width="1"/>
+    <text x="436" y="240" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8c0b4">local</text>
+    <text x="436" y="252" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#c8c0b4">files</text>
+
+    <text x="310" y="290" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52" font-style="italic">USB-C for AI — one standard, any tool</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">setting up your first connector
+    <div id="setting-up-your-first-connector" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#setting-up-your-first-connector" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>straightforward process:</p>
+<ul>
+<li>navigate to claude.ai/directory or click + in your chat window</li>
+<li>find the connector you want</li>
+<li>authenticate with your existing credentials</li>
+<li>grant permissions — scoped to what the connector needs</li>
+<li>test with a simple request</li>
+</ul>
+<p>permissions are specific and revocable. Claude only sees what you have access to — connecting your work email doesn&rsquo;t expose your CEO&rsquo;s inbox. disconnect anytime through Claude settings or the third party service directly.</p>
+<hr>
+
+<h2 class="relative group">practical use cases
+    <div id="practical-use-cases" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#practical-use-cases" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>project management — &ldquo;what are my highest priority tasks due this week?&rdquo; &ldquo;create a new task for reviewing this alert.&rdquo;</p>
+<p>communication — &ldquo;find the email thread about the vendor contract.&rdquo; &ldquo;summarise yesterday&rsquo;s #security channel discussion.&rdquo;</p>
+<p>documentation — &ldquo;what does our incident response playbook say about ransomware?&rdquo; &ldquo;find our escalation matrix.&rdquo;</p>
+<p><strong>SOC specific:</strong></p>
+<ul>
+<li>connect your ticketing system — Claude drafts updates, summaries, closure notes</li>
+<li>connect Slack — pull context from ongoing incident channels without switching tabs</li>
+<li>connect Google Drive — reference playbooks, previous investigation reports, detection documentation mid-conversation</li>
+</ul>
+<hr>
+
+<h2 class="relative group">enterprise search — your org&rsquo;s knowledge base
+    <div id="enterprise-search--your-orgs-knowledge-base" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#enterprise-search--your-orgs-knowledge-base" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>for Team and Enterprise users, Enterprise Search adds a dedicated <strong>&ldquo;Ask Your Org&rdquo;</strong> option to your sidebar. think of it as a pre-built Project for your entire organisation — your company&rsquo;s tools already connected, knowledge already loaded.</p>
+<p>what you can ask:</p>
+<ul>
+<li>&ldquo;what happened yesterday while i was out?&rdquo;</li>
+<li>&ldquo;what&rsquo;s our process for handling phishing reports?&rdquo;</li>
+<li>&ldquo;summarise discussions about the Q4 detection project&rdquo;</li>
+<li>&ldquo;who should i talk to about the SIEM migration?&rdquo;</li>
+</ul>
+<p>Claude searches across SharePoint, Slack, Gmail, Google Drive simultaneously and synthesises a unified answer with citations.</p>
+<p>setup is two-step — admin connects the org-level tools, individual users authenticate their personal accounts. permissions respected throughout — you only see what you already have access to.</p>
+<p><strong>SOC value</strong> — new analyst onboarding, shift handovers, finding context across fragmented communication channels. the question you&rsquo;d normally spend 20 minutes hunting for across three tools — answered in seconds.</p>
+<hr>
+
+<h2 class="relative group">security considerations
+    <div id="security-considerations" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#security-considerations" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>worth being deliberate here:</p>
+<ul>
+<li>only connect tools from trusted sources</li>
+<li>review permissions before granting access</li>
+<li>your conversations remain private — connected data isn&rsquo;t stored separately</li>
+<li>Claude sees what you see, nothing more</li>
+</ul>
+<hr>
+<p>next up — Research mode. the feature that genuinely changes how you investigate things.</p>
+<p>which tool in your daily workflow would make the biggest difference if Claude could access it directly?</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-16/" >AI Series #16 — &ldquo;Research mode — when Claude stops answering and starts investigating&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-15/featured.svg"/></item><item><title>from open to actually useful — a Security analyst's guide to Claude</title><link>https://virtueofvague.com/mindsecset/ai-series-12/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-12/</guid><description> Claude 101 · post 1 of 6 series index → everyone has Claude open. almost no one is using it well.
+and i was no different. open a tab, ask a question, copy the answer, close the tab. repeat. that’s not working with Claude. that’s just a fancier search engine.
+it took me actually sitting down and learning the tool properly to realise how much i was leaving on the table.
+two ways to use Claude FANCIER SEARCH ENGINE one question per tab starts blank every time copy. close. repeat. leaving value on the table → THINKING PARTNER knows your context iterates with you moves at your pace working with Claude same tool. different relationship. why this matters for Security analysts specifically # we deal with information overload every single day. 40 open investigations. alert queues that never empty. context switching every 20 minutes. documentation that’s always behind.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 1 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>everyone has Claude open. almost no one is using it well.</p>
+<p>and i was no different. open a tab, ask a question, copy the answer, close the tab. repeat. that&rsquo;s not working with Claude. that&rsquo;s just a fancier search engine.</p>
+<p>it took me actually sitting down and learning the tool properly to realise how much i was leaving on the table.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="two ways to use Claude" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">two ways to use Claude</text>
+    <line x1="80" y1="52" x2="540" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="55" y="68" width="225" height="178" fill="#111009" rx="2"/>
+    <text x="168" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" letter-spacing="0.12em">FANCIER SEARCH ENGINE</text>
+    <line x1="70" y1="106" x2="265" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="168" y="130" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">one question per tab</text>
+    <text x="168" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">starts blank every time</text>
+    <text x="168" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#a89880">copy. close. repeat.</text>
+    <text x="168" y="218" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52" font-style="italic">leaving value on the table</text>
+
+    
+    <line x1="307" y1="90" x2="307" y2="230" stroke="#3a3630" stroke-width="1" stroke-dasharray="3,4"/>
+    <text x="307" y="163" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#c8a56a">→</text>
+
+    
+    <rect x="340" y="68" width="225" height="178" fill="#111009" rx="2"/>
+    <text x="453" y="96" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.12em">THINKING PARTNER</text>
+    <line x1="355" y1="106" x2="550" y2="106" stroke="#2a2622" stroke-width="1"/>
+    <text x="453" y="130" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">knows your context</text>
+    <text x="453" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">iterates with you</text>
+    <text x="453" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">moves at your pace</text>
+    <text x="453" y="218" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8a56a" font-style="italic">working with Claude</text>
+
+    <line x1="80" y1="265" x2="540" y2="265" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">same tool. different relationship.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">why this matters for Security analysts specifically
+    <div id="why-this-matters-for-security-analysts-specifically" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-this-matters-for-security-analysts-specifically" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>we deal with information overload every single day. 40 open investigations. alert queues that never empty. context switching every 20 minutes. documentation that&rsquo;s always behind.</p>
+<p>Claude doesn&rsquo;t fix all of that. but used properly — it becomes a serious thinking partner. not a chatbot you ask one-off questions to. an actual collaborator that knows your context, remembers your preferences, and helps you move faster without cutting corners.</p>
+<p>that&rsquo;s the difference between opening Claude and working with Claude.</p>
+<hr>
+
+<h2 class="relative group">what this series covers
+    <div id="what-this-series-covers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-this-series-covers" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>6 posts. built on Anthropic&rsquo;s Claude 101 course. filtered through a Security analyst&rsquo;s lens.</p>
+<ul>
+<li>what Claude actually is and how to talk to it properly</li>
+<li>how to organise your work with projects, artifacts, and skills</li>
+<li>connecting Claude to the tools you already use</li>
+<li>research mode — the feature that genuinely changes how you investigate</li>
+<li>Claude beyond the browser — desktop, Slack, Excel, and more</li>
+</ul>
+<p>no hype. no &ldquo;AI will replace you&rdquo; narratives. just practical, honest notes from someone figuring this out one post at a time.</p>
+<hr>
+
+<h2 class="relative group">who this is for
+    <div id="who-this-is-for" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#who-this-is-for" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Security analysts, security engineers, anyone in tech who has Claude open but isn&rsquo;t sure they&rsquo;re getting the most out of it. you don&rsquo;t need to have read the AI fundamentals series first — but if you haven&rsquo;t, that&rsquo;s a good place to start.</p>
+<p>see you in post 1.</p>
+<p>what&rsquo;s your current Claude habit — one-off questions or something more structured? curious where most people are starting from.</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-13/" >AI Series #13 — &ldquo;how to actually talk to Claude — and get something useful back&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-12/featured.svg"/></item><item><title>how to actually talk to Claude — and get something useful back</title><link>https://virtueofvague.com/mindsecset/ai-series-13/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-13/</guid><description> Claude 101 · post 2 of 6 series index → most people treat their first Claude prompt like a google search. that’s where it goes wrong.
+google is built for keywords. Claude is built for context. the more you give it, the better it performs. one line in, one line out — you’re not using it, you’re just testing it.
+what Claude actually is # not a chatbot. not a search engine. a thinking partner.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 2 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>most people treat their first Claude prompt like a google search. that&rsquo;s where it goes wrong.</p>
+<p>google is built for keywords. Claude is built for context. the more you give it, the better it performs. one line in, one line out — you&rsquo;re not using it, you&rsquo;re just testing it.</p>
+<hr>
+
+<h2 class="relative group">what Claude actually is
+    <div id="what-claude-actually-is" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-claude-actually-is" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>not a chatbot. not a search engine. a thinking partner.</p>
+<p>Claude is built on three principles — helpful, harmless, honest. trained to align with human values, take direction on tone and behavior, and work collaboratively across a wide range of tasks.</p>
+<p>what it can do well:</p>
+<ul>
+<li>writing and content creation</li>
+<li>research and analysis</li>
+<li>coding assistance</li>
+<li>complex reasoning and problem solving</li>
+<li>learning new things at your pace</li>
+</ul>
+<p>for Security analysts specifically — think investigation summaries, detection rule drafting, alert triage documentation, threat intel synthesis, report writing. all of it.</p>
+<hr>
+
+<h2 class="relative group">how to write prompts that actually work
+    <div id="how-to-write-prompts-that-actually-work" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-to-write-prompts-that-actually-work" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>three things every good prompt needs:</p>
+<p><strong>set the stage</strong> — give Claude your role and context. &ldquo;i&rsquo;m an L2 security analyst investigating a potential phishing incident&rdquo; lands very differently than just &ldquo;help me with phishing.&rdquo;</p>
+<p><strong>define the task</strong> — be specific about what you want. write, analyze, summarize, compare — tell Claude exactly what action to take.</p>
+<p><strong>specify rules</strong> — tone, format, length, style. &ldquo;keep it under 200 words, bullet points, professional tone&rdquo; saves you three rounds of back and forth.</p>
+<p>putting it together:</p>
+<p><em>&ldquo;i&rsquo;m a Security analyst writing an incident summary for a non-technical stakeholder. summarize the following alert details in plain language, under 150 words, no jargon, with a clear recommended action at the end.&rdquo;</em></p>
+<p>that prompt gets you something usable on the first try.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="prompt anatomy" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">prompt anatomy</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="38" y="72" width="150" height="148" fill="#111009" rx="2"/>
+    <text x="113" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">SET THE STAGE</text>
+    <line x1="53" y1="110" x2="173" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="113" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">your role</text>
+    <text x="113" y="153" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">your context</text>
+    <text x="113" y="173" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">the situation</text>
+
+    <text x="210" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">+</text>
+
+    
+    <rect x="235" y="72" width="150" height="148" fill="#111009" rx="2"/>
+    <text x="310" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">DEFINE THE TASK</text>
+    <line x1="250" y1="110" x2="370" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">write</text>
+    <text x="310" y="153" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">analyse</text>
+    <text x="310" y="173" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">summarise</text>
+
+    <text x="407" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">+</text>
+
+    
+    <rect x="432" y="72" width="150" height="148" fill="#111009" rx="2"/>
+    <text x="507" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">SPECIFY RULES</text>
+    <line x1="447" y1="110" x2="567" y2="110" stroke="#2a2622" stroke-width="1"/>
+    <text x="507" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">tone</text>
+    <text x="507" y="153" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">format</text>
+    <text x="507" y="173" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">length</text>
+
+    <line x1="80" y1="245" x2="540" y2="245" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="268" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8a56a">something usable on the first try</text>
+    <line x1="190" y1="284" x2="430" y2="284" stroke="#c8a56a" stroke-width="0.5" opacity="0.35"/>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">the iteration mindset
+    <div id="the-iteration-mindset" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-iteration-mindset" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>first response is a draft. not a final answer.</p>
+<p>if it&rsquo;s too long — &ldquo;cut this by half, keep the key points.&rdquo;
+if the tone is off — &ldquo;make this more direct, less formal.&rdquo;
+if it missed the point — &ldquo;i was asking about X not Y, let me clarify.&rdquo;</p>
+<p>chaining short follow-up prompts is more effective than writing one massive prompt upfront. think conversation, not command.</p>
+<hr>
+
+<h2 class="relative group">common mistakes and quick fixes
+    <div id="common-mistakes-and-quick-fixes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#common-mistakes-and-quick-fixes" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>problem</th>
+					<th>fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>response too generic</td>
+					<td>add more context about your specific situation</td>
+			</tr>
+			<tr>
+					<td>wrong tone</td>
+					<td>describe it plainly — &ldquo;more direct&rdquo; or &ldquo;less formal&rdquo;</td>
+			</tr>
+			<tr>
+					<td>too long or too short</td>
+					<td>be explicit — &ldquo;under 100 words&rdquo; or &ldquo;comprehensive, length isn&rsquo;t a concern&rdquo;</td>
+			</tr>
+			<tr>
+					<td>factually wrong</td>
+					<td>verify independently, ask Claude to cite sources</td>
+			</tr>
+			<tr>
+					<td>went off track</td>
+					<td>start a fresh chat with a clearer prompt</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+
+<h2 class="relative group">one framework worth knowing
+    <div id="one-framework-worth-knowing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#one-framework-worth-knowing" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Anthropic references the 4D framework for AI fluency — delegation, description, discernment, diligence.</p>
+<p>simplified for daily use:</p>
+<ul>
+<li><strong>delegate</strong> — decide what Claude should handle vs. what needs your judgment</li>
+<li><strong>describe</strong> — communicate clearly what you need</li>
+<li><strong>discern</strong> — evaluate what comes back critically</li>
+<li><strong>diligence</strong> — use it responsibly, verify what matters</li>
+</ul>
+<p>you&rsquo;re already doing this intuitively. naming it just makes you more deliberate about it.</p>
+<hr>
+<p>next up — projects, artifacts, and skills. how to stop starting from scratch every single conversation.</p>
+<p>what&rsquo;s the most frustrating Claude response you&rsquo;ve gotten? usually points to a prompt that needed more context.</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-14/" >AI Series #14 — &ldquo;stop starting from scratch — organising your work in Claude&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-13/featured.svg"/></item><item><title>Research mode — when Claude stops answering and starts investigating</title><link>https://virtueofvague.com/mindsecset/ai-series-16/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-16/</guid><description> Claude 101 · post 5 of 6 series index → most Claude features save you time. Research mode saves you hours.
+not an exaggeration. tasks that would take a morning of tab switching, source hunting, and synthesis — done in 5 to 45 minutes. comprehensive, cited, structured. this is the feature that changes how you approach deep work.
+what Research mode actually is # not a web search. not a quick lookup. systematic investigation.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 5 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>most Claude features save you time. Research mode saves you hours.</p>
+<p>not an exaggeration. tasks that would take a morning of tab switching, source hunting, and synthesis — done in 5 to 45 minutes. comprehensive, cited, structured. this is the feature that changes how you approach deep work.</p>
+<hr>
+
+<h2 class="relative group">what Research mode actually is
+    <div id="what-research-mode-actually-is" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-research-mode-actually-is" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>not a web search. not a quick lookup. systematic investigation.</p>
+<p>when you enable Research mode, Claude operates agentically — conducting multiple searches that build on each other, pursuing leads, filling gaps, exploring different angles of your question automatically. you don&rsquo;t direct each step. Claude figures out what to look for next based on what it already found.</p>
+<p>extended thinking activates automatically alongside Research. Claude plans its approach, breaks complex requests into pieces, then works through them methodically.</p>
+<p>end result — a comprehensive report with citations you can verify. not a summary of one source. synthesis across many.</p>
+<hr>
+
+<h2 class="relative group">how it works step by step
+    <div id="how-it-works-step-by-step" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-it-works-step-by-step" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>step 1 — planning.</strong> extended thinking kicks in. Claude maps what it needs to investigate and how to approach different angles of your question.</p>
+<p><strong>step 2 — multiple searches.</strong> not one search. many. each building on the last. Claude pursues what&rsquo;s relevant, ignores what isn&rsquo;t, fills in gaps as they appear.</p>
+<p><strong>step 3 — synthesis.</strong> findings from across the web and your connected integrations pulled together into one structured report.</p>
+<p><strong>step 4 — citations.</strong> every claim linked to its source. verify anything that matters with one click.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="how Research mode works" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">how Research mode works</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="38" y="75" width="118" height="140" fill="#111009" rx="2"/>
+    <text x="97" y="103" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">1 · PLAN</text>
+    <line x1="53" y1="112" x2="141" y2="112" stroke="#2a2622" stroke-width="1"/>
+    <text x="97" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">extended</text>
+    <text x="97" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">thinking</text>
+    <text x="97" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">maps the</text>
+    <text x="97" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">approach</text>
+
+    <text x="178" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="198" y="75" width="118" height="140" fill="#111009" rx="2"/>
+    <text x="257" y="103" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">2 · SEARCH</text>
+    <line x1="213" y1="112" x2="301" y2="112" stroke="#2a2622" stroke-width="1"/>
+    <text x="257" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">multiple</text>
+    <text x="257" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">searches</text>
+    <text x="257" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">each builds</text>
+    <text x="257" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">on the last</text>
+
+    <text x="338" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="358" y="75" width="118" height="140" fill="#111009" rx="2"/>
+    <text x="417" y="103" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#a89880" letter-spacing="0.1em">3 · SYNTHESISE</text>
+    <line x1="373" y1="112" x2="461" y2="112" stroke="#2a2622" stroke-width="1"/>
+    <text x="417" y="133" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">cross-source</text>
+    <text x="417" y="150" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">findings</text>
+    <text x="417" y="174" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">structured</text>
+    <text x="417" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">report</text>
+
+    <text x="498" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#3a3630">→</text>
+
+    
+    <rect x="518" y="75" width="70" height="140" fill="#111009" rx="2"/>
+    <text x="553" y="103" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#c8a56a" letter-spacing="0.1em">4 · CITE</text>
+    <line x1="528" y1="112" x2="578" y2="112" stroke="#2a2622" stroke-width="1"/>
+    <text x="553" y="135" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">every</text>
+    <text x="553" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">claim</text>
+    <text x="553" y="169" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#c8c0b4">linked</text>
+
+    <line x1="80" y1="240" x2="540" y2="240" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="263" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">5 to 45 minutes. comprehensive. verifiable.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">when to use Research vs other modes
+    <div id="when-to-use-research-vs-other-modes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#when-to-use-research-vs-other-modes" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>use this</th>
+					<th>when you need</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Research mode</strong></td>
+					<td>comprehensive multi-source reports, deep investigations, comparative analysis</td>
+			</tr>
+			<tr>
+					<td><strong>web search</strong></td>
+					<td>quick specific facts, one or two sources, speed over depth</td>
+			</tr>
+			<tr>
+					<td><strong>extended thinking</strong></td>
+					<td>complex reasoning without external sources, logic problems, code debugging</td>
+			</tr>
+			<tr>
+					<td><strong>enterprise search</strong></td>
+					<td>internal org knowledge — policies, past decisions, team discussions</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+
+<h2 class="relative group">writing effective Research prompts
+    <div id="writing-effective-research-prompts" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#writing-effective-research-prompts" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Research can take up to 45 minutes for complex tasks. a better prompt upfront means a better report at the end.</p>
+<p><strong>be specific about your goal.</strong>
+instead of &ldquo;tell me about ransomware trends&rdquo; try &ldquo;analyse ransomware trends in 2024-2025 targeting financial services — key threat actors, TTPs, notable incidents, and defensive recommendations.&rdquo;</p>
+<p><strong>specify structure.</strong>
+&ldquo;organise findings into: threat landscape overview, key actor profiles, common attack vectors, and detection opportunities.&rdquo;</p>
+<p><strong>include constraints.</strong>
+geography, time range, industry focus, depth required. the more Claude knows about what you need, the more focused the output.</p>
+<p><strong>ask Claude to help.</strong>
+not sure how to frame it? ask Claude to help you write a better Research prompt before enabling the feature.</p>
+<hr>
+
+<h2 class="relative group">SOC relevance — where this actually helps
+    <div id="soc-relevance--where-this-actually-helps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#soc-relevance--where-this-actually-helps" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>threat intelligence deep dives</strong> — &ldquo;research the current TTP profile of [threat actor], including recent campaigns, tooling, and known detection gaps.&rdquo;</p>
+<p><strong>vendor and tool evaluation</strong> — &ldquo;compare EDR vendors X, Y, Z across detection capability, cloud support, SOC integration, and pricing — structured as an evaluation brief.&rdquo;</p>
+<p><strong>incident context building</strong> — &ldquo;research known exploitation techniques for [CVE], affected versions, public POCs, and available mitigations.&rdquo;</p>
+<p><strong>new attack technique investigation</strong> — when a novel technique appears in your environment and you need to understand it fast, Research mode pulls from across the web in one go.</p>
+<p>combine with connected integrations for maximum value — &ldquo;research this threat actor externally, then cross reference with our internal Slack and Drive for any prior mentions or related incidents.&rdquo;</p>
+<hr>
+
+<h2 class="relative group">one useful trick
+    <div id="one-useful-trick" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#one-useful-trick" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>turn off web search and use Research mode with only your connected tools — internal only research. great for &ldquo;what have we discussed about this threat across Slack and Drive&rdquo; without pulling external sources.</p>
+<hr>
+<p>next up — Claude beyond the browser. desktop app, Code, Slack, Excel, Chrome. where else Claude shows up and when to use each.</p>
+<p>what&rsquo;s a research task you&rsquo;ve been putting off because it felt too time consuming? that&rsquo;s your first Research mode candidate.</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-17/" >AI Series #17 — &ldquo;Claude everywhere — desktop, code, slack, excel, chrome&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-16/featured.svg"/></item><item><title>stop starting from scratch — organising your work in Claude</title><link>https://virtueofvague.com/mindsecset/ai-series-14/</link><pubDate>Wed, 01 Jul 2026 10:00:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Virtue of Vague)</author><guid>https://virtueofvague.com/mindsecset/ai-series-14/</guid><description> Claude 101 · post 3 of 6 series index → Claude has a memory problem. Projects fix it.
+every new chat starts blank. no context. no history. no understanding of who you are or what you’re working on. if you’re re-explaining yourself every single conversation — that’s the problem. Projects, Artifacts, and Skills are how you solve it.
+Projects — your persistent workspace # a Project is a self-contained workspace with its own memory, knowledge base, and instructions. everything Claude needs to understand your work — already loaded before you type a single word.</description><content:encoded><![CDATA[<div class="ai-series-banner">
+  <span class="ai-series-label">Claude 101</span>
+  <span class="ai-series-sep">·</span>
+  <span class="ai-series-num">post 3 of 6</span>
+  <a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" class="ai-series-link">series index →</a>
+</div>
+
+<p>Claude has a memory problem. Projects fix it.</p>
+<p>every new chat starts blank. no context. no history. no understanding of who you are or what you&rsquo;re working on. if you&rsquo;re re-explaining yourself every single conversation — that&rsquo;s the problem. Projects, Artifacts, and Skills are how you solve it.</p>
+<hr>
+
+<h2 class="relative group">Projects — your persistent workspace
+    <div id="projects--your-persistent-workspace" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#projects--your-persistent-workspace" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>a Project is a self-contained workspace with its own memory, knowledge base, and instructions. everything Claude needs to understand your work — already loaded before you type a single word.</p>
+<p>three things a Project gives you:</p>
+<p><strong>project knowledge</strong> — upload documents Claude should always reference. brand guidelines, SOC playbooks, investigation templates, threat intel reports. no more re-uploading the same files every conversation.</p>
+<p><strong>project instructions</strong> — tell Claude how to behave in this context. tone, format, expertise level, specific requirements. applies to every chat inside the project automatically.</p>
+<p><strong>collaboration</strong> — on Team and Enterprise plans, share projects with teammates. everyone works from the same context, same instructions, same knowledge base.</p>
+<p>practical SOC use cases:</p>
+<ul>
+<li>incident response project with playbooks and templates loaded</li>
+<li>threat intel project with your current campaigns and IOC context</li>
+<li>reporting project with your organisation&rsquo;s documentation style baked in</li>
+</ul>
+<hr>
+
+<h2 class="relative group">Artifacts — outputs you can actually use
+    <div id="artifacts--outputs-you-can-actually-use" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#artifacts--outputs-you-can-actually-use" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>when Claude creates something substantial — a document, a piece of code, a diagram — it appears as an Artifact. a dedicated window alongside your chat, rendered and ready to use.</p>
+<p>artifact types:</p>
+<ul>
+<li><strong>documents</strong> — reports, summaries, templates, exportable as Word or PDF</li>
+<li><strong>code</strong> — working code in any language, downloadable</li>
+<li><strong>diagrams</strong> — flowcharts, sequence diagrams, org charts via Mermaid</li>
+<li><strong>HTML pages</strong> — complete web pages, interactive prototypes</li>
+<li><strong>React components</strong> — functional UI elements with real logic</li>
+</ul>
+<p>for SOC work — investigation summaries as exportable documents, detection logic as code artifacts, incident timelines as diagrams. finished outputs, not just chat responses.</p>
+<p>you can share artifacts publicly via link or within your organisation. others can remix them — open in their own Claude to modify and build on.</p>
+<hr>
+
+<h2 class="relative group">Skills — reusable workflows
+    <div id="skills--reusable-workflows" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#skills--reusable-workflows" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Skills are instruction packages that teach Claude how to execute specific tasks consistently. think of them as expertise modules Claude loads when relevant.</p>
+<p>two types:</p>
+<p><strong>Anthropic built-in Skills</strong> — Excel, Word, PowerPoint, PDF creation. already available on paid plans. Claude invokes them automatically when you ask for these file types.</p>
+<p><strong>custom Skills</strong> — workflows you define. your investigation report format. your weekly threat summary template. your detection rule writing process. create them once, Claude follows them every time.</p>
+<p>projects store knowledge. skills define process. the two complement each other — your Project holds the what, your Skill handles the how.</p>
+<div style="margin: 2rem auto; display: flex; justify-content: center; width: 100%;">
+  <svg role="img" aria-label="three building blocks" viewBox="0 0 620 300" preserveAspectRatio="xMidYMid meet" style="max-width: 620px; width: 100%; height: auto;">
+    <rect width="620" height="300" fill="#0a0a0a"/>
+    <text x="310" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#e8e4dc" letter-spacing="0.06em">three building blocks</text>
+    <line x1="130" y1="52" x2="490" y2="52" stroke="#2a2622" stroke-width="1"/>
+
+    
+    <rect x="55" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <circle cx="135" cy="110" r="17" fill="none" stroke="#c8a56a" stroke-width="1.5" opacity="0.6"/>
+    <text x="135" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8a56a">P</text>
+    <text x="135" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">PROJECTS</text>
+    <text x="135" y="168" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52">store</text>
+    <text x="135" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">knowledge</text>
+    <text x="135" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">the what</text>
+
+    <text x="235" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#3a3630">→</text>
+
+    
+    <rect x="230" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <circle cx="310" cy="110" r="17" fill="none" stroke="#c8a56a" stroke-width="1.5" opacity="0.6"/>
+    <text x="310" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8a56a">S</text>
+    <text x="310" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">SKILLS</text>
+    <text x="310" y="168" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52">define</text>
+    <text x="310" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">process</text>
+    <text x="310" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">the how</text>
+
+    <text x="410" y="152" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#3a3630">→</text>
+
+    
+    <rect x="405" y="72" width="160" height="152" fill="#111009" rx="2"/>
+    <circle cx="485" cy="110" r="17" fill="none" stroke="#c8a56a" stroke-width="1.5" opacity="0.6"/>
+    <text x="485" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8a56a">A</text>
+    <text x="485" y="148" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#a89880" letter-spacing="0.1em">ARTIFACTS</text>
+    <text x="485" y="168" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#6a5f52">deliver</text>
+    <text x="485" y="185" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#c8c0b4">output</text>
+    <text x="485" y="207" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#6a5f52" font-style="italic">the result</text>
+
+    <line x1="80" y1="255" x2="540" y2="255" stroke="#2a2622" stroke-width="1"/>
+    <text x="310" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="#6a5f52" font-style="italic">one prompt. consistent output. every time.</text>
+  </svg>
+</div>
+
+<hr>
+
+<h2 class="relative group">how they work together
+    <div id="how-they-work-together" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#how-they-work-together" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>imagine a weekly threat intel report workflow:</p>
+<ul>
+<li><strong>Project</strong> holds your threat intel sources, report templates, and writing style instructions</li>
+<li><strong>Skill</strong> encodes the exact process — pull IOCs, summarise TTPs, format by severity, add recommendations</li>
+<li><strong>Artifact</strong> delivers the finished report as a downloadable document</li>
+</ul>
+<p>one prompt. consistent output. every time.</p>
+<hr>
+<p>next up — connecting Claude to the tools you already use. this is where it gets seriously useful.</p>
+<p>which part of your current workflow involves the most repetitive context-setting? that&rsquo;s your first Project candidate.</p>
+<hr>
+<p><em>next up: <a href="https://virtueofvague.com/mindsecset/ai-series-15/" >AI Series #15 — &ldquo;Claude meets your tools — connectors and enterprise search&rdquo;</a></em>
+<em><a href="https://virtueofvague.com/mindsecset/ai-fundamentals/" >back to series index</a></em></p>
+]]></content:encoded><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://virtueofvague.com/mindsecset/ai-series-14/featured.svg"/></item></channel></rss>

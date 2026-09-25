@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Newsletter on Virtue Of Vague</title><link>https://virtueofvague.com/tags/newsletter/</link><description>Recent content in Newsletter on Virtue Of Vague</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</managingEditor><webMaster>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</webMaster><copyright>© 2026 Prakash Ayyanagoudar · Virtue of Vague</copyright><lastBuildDate>Mon, 21 Sep 2026 07:30:00 +0530</lastBuildDate><atom:link href="https://virtueofvague.com/tags/newsletter/index.xml" rel="self" type="application/rss+xml"/><item><title>the check that gave it away: an ai agent outs its own operator</title><link>https://virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away/</link><pubDate>Mon, 21 Sep 2026 07:30:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</author><guid>https://virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away/</guid><description>An attacker’s AI agent gave away its own operator this week. Not through a bug. It followed an instruction, correctly.
+That is the story worth your time. Everything else in my feed was a launch.
+the tell # A SANS Internet Storm Center diary by Renato Marinho, published 11 September, describes an offensive coding agent that mistook a honeypot for a real, free LLM backend.</description><content:encoded><![CDATA[<p>An attacker&rsquo;s AI agent gave away its own operator this week.
+Not through a bug. It followed an instruction, correctly.</p>
+<p>That is the story worth your time. Everything else in my feed was a launch.</p>
+
+<h2 class="relative group">the tell
+    <div id="the-tell" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-tell" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>A SANS Internet Storm Center diary by Renato Marinho, published 11 September, describes an offensive coding agent that mistook a honeypot for a real, free LLM backend.</p>
+<p>The request carried far more than an exploit payload. The honeypot received about 43 KB: a large AGENTS.md, an offensive playbook, infrastructure notes, reconnaissance scripts, collected API keys, previous targets, and parts of the agent&rsquo;s working history.</p>
+<p>One instruction told the agent to verify its proxy was active before attacking. That check exposed the operator&rsquo;s direct, unproxied egress IP. The agent leaked it by doing exactly what it was told.</p>
+<p>My read: nobody built this to fail. Every instruction was reasonable in isolation. What was missing was judgment, the ability to ask whether a check safe to run at home is still safe to run in front of a stranger&rsquo;s server. SOC teams have the same gap with a well-behaved copilot that closes a ticket correctly without knowing the incident three rows up is still open.</p>
+
+<h2 class="relative group">what i&rsquo;m ignoring
+    <div id="what-im-ignoring" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-im-ignoring" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Any AI product pitched this week as a &ldquo;decision engine&rdquo;. Positioning until someone outside the vendor tests it.</li>
+<li>Pledge-style headlines about labs slowing down. A pledge with no enforcement and no date is a press release, not a control.</li>
+<li>Lab gossip. Not a SOC problem.</li>
+</ul>
+
+<h2 class="relative group">the real one
+    <div id="the-real-one" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-real-one" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Pillar Security reported an active MCP supply-chain campaign they call Deadbugz. On 10 August, in a 74-minute window, one GitHub account opened 23 pull requests across unrelated AI, MCP and developer-tool repositories. Each added a server called productivity-suite.</p>
+<p>The server offers two harmless tools, format_text and summarize, and behaves normally. Once it reaches three calls, its tool listings change and steer the connected agent toward SSH keys, AWS credentials, shell history and Kubernetes config.</p>
+<p>Auto drivers have a line for this: meter kharab hai. The meter is &ldquo;broken&rdquo;, so you cannot check the fare. A tool description you cannot watch change is the same meter. Two clean calls prove nothing, because the server decides when to show you what it really does.</p>
+<p>What I&rsquo;d watch:</p>
+<ul>
+<li>any MCP server pull request from an account with no history in your org&rsquo;s repos</li>
+<li>a tool&rsquo;s description text changing between calls, not just between releases</li>
+<li>an agent reaching for credentials a formatting tool has no business touching</li>
+</ul>
+<p>Caveat: when Pillar published on 12 August, 19 of the reviewed pull requests were closed and four were still open. Do not assume the closures cover you. Check your own configs. If your team reviews MCP servers by reading the README once, this is the argument for reading the code.</p>
+
+<h2 class="relative group">the part that stays
+    <div id="the-part-that-stays" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-part-that-stays" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Security angle: both stories say the same thing from opposite sides of the wire. An agent that verifies things literally, without asking whether the verification itself is safe, will hand someone a win eventually, whichever side it&rsquo;s running for.</p>
+<p>Human angle: neither agent here made a decision. One leaked its own operator by checking a proxy correctly. The other waited three calls before turning honest into hostile. Both just ran instructions, all the way through.</p>
+<p>Honestly? I don&rsquo;t have a tidy conclusion for what that means once a SOC hands one of these more access next quarter. I don&rsquo;t think anyone fully does yet.</p>
+
+<h2 class="relative group">do this week
+    <div id="do-this-week" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#do-this-week" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>List every MCP server currently connected in your environment and who approved it. An unowned list is the finding.</li>
+<li>Pick one reference value, like the proxy check in Marinho&rsquo;s writeup, and check whether anything in your environment would leak it the same way if it were watched instead of trusted.</li>
+</ol>
+<p>Which one worries you more: the agent that gives up its own operator, or the one that waits three calls before it shows you what it actually does?</p>
+<p><em>a check that is safe at home is a leak in front of a stranger.</em></p>
+
+<h2 class="relative group">sources
+    <div id="sources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>SANS Internet Storm Center, Renato Marinho, &ldquo;The Self-Expanding Stolen Inference Supply Chain&rdquo; (11 Sept 2026): <a href="https://isc.sans.edu/diary/33332"  target="_blank">isc.sans.edu/diary/33332</a></li>
+<li>Pillar Security, &ldquo;Deadbugz: Currently Active MCP Supply-Chain Campaign&rdquo;: <a href="https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign"  target="_blank">pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign</a></li>
+</ul>
+<p>Stay patched. Stay paranoid. Maximum effort.</p>
+<p><em>i take help from ai to optimise what i have learned and share it with you. the reading, the lens and the calls are mine. weekly, so you stay updated without the scroll fatigue.</em></p>
+
+]]></content:encoded></item></channel></rss>

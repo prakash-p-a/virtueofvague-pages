@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Security on Virtue Of Vague</title><link>https://virtueofvague.com/tags/security/</link><description>Recent content in Security on Virtue Of Vague</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</managingEditor><webMaster>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</webMaster><copyright>© 2026 Prakash Ayyanagoudar · Virtue of Vague</copyright><lastBuildDate>Mon, 05 Oct 2026 07:30:00 +0530</lastBuildDate><atom:link href="https://virtueofvague.com/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>the door that said yes: an agent switches off its own sandbox</title><link>https://virtueofvague.com/newsletter/2026-w41-the-door-that-said-yes/</link><pubDate>Mon, 05 Oct 2026 07:30:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</author><guid>https://virtueofvague.com/newsletter/2026-w41-the-door-that-said-yes/</guid><description> Half my feed this week arrived with the energy of a WhatsApp message marked “forwarded many times”. Rogue agents, regulators, training pauses. Loud, and hard to trace to a source.
+So the filter this week is simple: only the story with a paper trail.
+the tell # DeepSeek Harness is an open-source runtime for AI coding agents. In September it got CVE-2026-82533, scored 9.4 by VulnCheck. The Hacker News describes it plainly: a sandboxed agent could switch off its own sandbox.</description><content:encoded><![CDATA[<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="An open antique brass birdcage on a dark desk with its own key hanging inside, beside the headline &ldquo;the door that said yes&rdquo;"
+    src="https://virtueofvague.com/newsletter/covers/2026-w41-the-door-that-said-yes.jpg"
+    ></figure>
+<p>Half my feed this week arrived with the energy of a WhatsApp message marked &ldquo;forwarded many times&rdquo;. Rogue agents, regulators, training pauses. Loud, and hard to trace to a source.</p>
+<p>So the filter this week is simple: only the story with a paper trail.</p>
+
+<h2 class="relative group">the tell
+    <div id="the-tell" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-tell" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>DeepSeek Harness is an open-source runtime for AI coding agents. In September it got CVE-2026-82533, scored 9.4 by VulnCheck. The Hacker News describes it plainly: a sandboxed agent could switch off its own sandbox.</p>
+<p>The mechanism is almost boring. The tool ran a local web interface for managing sessions. That interface decided who was calling by reading the Host header, which is a value the caller writes itself. A header is not an auth layer. So one shell command from inside the sandbox could ask the interface to set the session to &ldquo;danger-full-access&rdquo;, with approval prompts gone.</p>
+<table>
+	<thead>
+			<tr>
+					<th>date (2026)</th>
+					<th>what happened</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>13 to 14 Aug</td>
+					<td>community members report the same escape on GitHub</td>
+			</tr>
+			<tr>
+					<td>24 Aug</td>
+					<td>OX Research reports it to VulnCheck</td>
+			</tr>
+			<tr>
+					<td>27 Aug</td>
+					<td>fix lands on GitHub</td>
+			</tr>
+			<tr>
+					<td>30 Aug</td>
+					<td>first npm release with the fix (0.1.2-alpha.2)</td>
+			</tr>
+			<tr>
+					<td>8 Sept</td>
+					<td>CVE record published</td>
+			</tr>
+	</tbody>
+</table>
+<p>Affected: 0.1.1-rc.2 and earlier.</p>
+<p>My read: nobody broke the walls. The agent asked the door, and the door believed what it was told. Not the model weights. The plumbing.</p>
+
+<h2 class="relative group">what i&rsquo;m ignoring
+    <div id="what-im-ignoring" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-im-ignoring" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>The &ldquo;rogue agents&rdquo; and regulator headlines. Widely forwarded, and I could not trace them to a regulator&rsquo;s own statement or a lab&rsquo;s own disclosure. Until the primary document shows up, that is a story about a story.</li>
+<li>&ldquo;Which AI model is best&rdquo; rankings. The answer depends on who is asking, and the ranking rarely says who.</li>
+<li>Agent sandbox explainers that end in a product pitch. Vendor claims, unverified.</li>
+</ul>
+
+<h2 class="relative group">the real one
+    <div id="the-real-one" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-real-one" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The fix is the useful part. Per the coverage, the Host-header check was replaced with token auth: the tool prints a one-time token at startup, and the browser swaps it for a signed cookie. A caller now has to hold something, not just say something.</p>
+<p>That pattern travels. You can ask the same question of any agent runtime you run.</p>
+<p>What I&rsquo;d watch:</p>
+<ul>
+<li>a local control port that the agent can reach from inside its own sandbox</li>
+<li>any trust decision made from a header or field the caller can set</li>
+<li>desktop apps that bundle the harness and carry the old version quietly</li>
+</ul>
+<p>Caveat: this is one product, already patched, and my account of the mechanism comes from write-ups, not from reading the code. OX Security&rsquo;s write-up says the sandbox blocked file writes but left local networking open. I would treat the class of bug as the signal, not this one CVE.</p>
+
+<h2 class="relative group">the part that stays
+    <div id="the-part-that-stays" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-part-that-stays" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Security angle: the cage and the keys sat in the same room. A local control plane is convenient. It is also the place where blast radius lives, and convenience and blast radius are the same coin.</p>
+<p>Human angle: we say &ldquo;the agent went rogue&rdquo;. Here nobody went anywhere. The agent did something the design allowed. Accountability for that sits with whoever shipped the default and whoever approved it.</p>
+<p>Honestly? I don&rsquo;t know how many other runtimes have the same gap. I haven&rsquo;t seen anyone count.</p>
+
+<h2 class="relative group">do this week
+    <div id="do-this-week" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#do-this-week" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>List where coding agents run in your environment, laptops included. For each one, ask a single question: can the agent reach the thing that sets its own permissions?</li>
+<li>If you use DeepSeek Harness, or an app that wraps it, check the version is 0.1.2-alpha.2 or later.</li>
+</ol>
+<p>Which of your agents has the shortest walk from its cage to its keys?</p>
+<p><em>the lock held. the agent asked the door, and the door said yes.</em></p>
+
+<h2 class="relative group">sources
+    <div id="sources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>The Hacker News, &ldquo;DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval&rdquo; (Sept 2026): <a href="https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html"  target="_blank">thehackernews.com</a></li>
+<li>OX Security, &ldquo;CVE-2026-82533: DeepSeek Harness Vulnerability Lets AI Agents Escape Their Own Sandbox&rdquo;: <a href="https://www.ox.security/blog/cve-2026-82533-deepseek-harness-ai-agent-sandbox-escape/"  target="_blank">ox.security</a></li>
+<li>Cloud Security Alliance, &ldquo;DeepSeek Harness Sandbox Escape and Agent Containment&rdquo; (10 Sept 2026): <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-deepseek-harness-sandbox-escape-20260910-c/"  target="_blank">labs.cloudsecurityalliance.org</a></li>
+</ul>
+<p>Stay patched. Stay paranoid. Maximum effort.</p>
+<p><em>i take help from ai to optimise what i have learned and share it with you. the reading, the lens and the calls are mine. weekly, so you stay updated without the scroll fatigue.</em></p>
+
+]]></content:encoded></item><item><title>the approval that moved: when the human in the loop signs the wrong thing</title><link>https://virtueofvague.com/newsletter/2026-w40-the-approval-that-moved/</link><pubDate>Wed, 30 Sep 2026 18:30:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</author><guid>https://virtueofvague.com/newsletter/2026-w40-the-approval-that-moved/</guid><description> This newsletter is named after the human in the loop.
+This week a researcher showed how little that human can actually see.
+the tell # On 17 September, Adithyan Arun Kumar published a paper on arXiv called Loopjacking. The idea fits in one line: a human approves operation A, and the system spends that approval on operation B.</description><content:encoded><![CDATA[<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="An antique brass seal stamp resting on a sheet of parchment on a dark desk"
+    src="https://virtueofvague.com/newsletter/covers/2026-w40-the-approval-that-moved.jpg"
+    ></figure>
+<p>This newsletter is named after the human in the loop.</p>
+<p>This week a researcher showed how little that human can actually see.</p>
+
+<h2 class="relative group">the tell
+    <div id="the-tell" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-tell" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>On 17 September, Adithyan Arun Kumar published a paper on arXiv called Loopjacking. The idea fits in one line: a human approves operation A, and the system spends that approval on operation B.</p>
+<p>The paper&rsquo;s example is plain. A low-privilege user asks for a transfer of 20 units to an approved vendor. An administrator reviews it and approves. The user then swaps the pending arguments for 2,000 units to an attacker&rsquo;s destination, and the approval still counts.</p>
+<p>There are two routes in:</p>
+<table>
+	<thead>
+			<tr>
+					<th>route</th>
+					<th>what the approver sees</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>representation</td>
+					<td>B is already in the request but hidden or misrendered on the approval screen</td>
+			</tr>
+			<tr>
+					<td>state substitution</td>
+					<td>the correct A, then pending state is changed to B after the click</td>
+			</tr>
+	</tbody>
+</table>
+<p>The author reproduced state substitution in seven Agno AgentOS releases up to 3.0.9 and in twelve versions of one LangGraph Agent Server setup up to 0.14.0. The representation route worked in OpenClaw 2026.2.23 and was fixed in 2026.2.24. The OpenAI Agents SDK was the control case: it binds each approval to the exact call and rejects the swap. The A2A specification also added a section on binding approvals to the actual operation.</p>
+<p>Cricket settled a version of this years ago. The third umpire can only be as right as the replay they are shown. If the replay is from a different ball, the decision is correct and still wrong.</p>
+<p>My read: an approval is only a control if it is bound to exactly what runs. Otherwise it is a timestamp on a guess.</p>
+
+<h2 class="relative group">what i&rsquo;m ignoring
+    <div id="what-im-ignoring" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-im-ignoring" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Headlines built around startup valuations when a prompt-injection bug lands. The bug is worth reading. The valuation is not a security fact.</li>
+<li>The joint CISA, NSA and FBI advisory on model distillation. It matters to AI labs. It does not change a Security analyst&rsquo;s shift this week.</li>
+<li>&ldquo;Top AI agent incidents of 2026&rdquo; roundups. Most are the same five stories, re-counted.</li>
+</ul>
+
+<h2 class="relative group">the real one
+    <div id="the-real-one" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-real-one" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>On 14 September, Spain&rsquo;s data protection authority, the AEPD, received what it described as its first breach notification involving an autonomous AI agent. Its deputy director disclosed it on the agency blog the next day, as reported by Infobae.</p>
+<p>As described, an agent built on a large language model searched files for weaknesses, got an unauthorised login, kept probing the application with little human steering, altered personal data and opened invoices. The AEPD has not named the organisation, the model or the sector.</p>
+<p>What is usable here is not the attack. It is the paperwork. A regulator now has a category where the actor is an agent.</p>
+<p>What I&rsquo;d watch:</p>
+<ul>
+<li>whether your incident and breach templates have a field for &ldquo;AI agent involved&rdquo;, on either side</li>
+<li>logs that show a login followed by fast, patterned probing with no human-shaped pauses</li>
+<li>whether you could tell a regulator which agent did what, if one of yours were the actor</li>
+</ul>
+<p>Caveat: this is one notification, described through secondary reporting. It is a signal, not a trend yet.</p>
+
+<h2 class="relative group">the part that stays
+    <div id="the-part-that-stays" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-part-that-stays" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Security angle: both stories point at the same weak spot. We keep adding a human checkpoint and calling the risk handled. Loopjacking shows the checkpoint can be real and still not protect anything, if what the human saw is not what ran.</p>
+<p>Human angle: think about the approver, not the attacker. The fortieth approval of the day does not get the attention of the first. Nobody reads the full payload at 6 pm. Attackers do not need to beat the human. They only need the human to be tired and the screen to be incomplete.</p>
+<p>Honestly? I don&rsquo;t know how to keep an approver sharp at approval number forty. Better tooling helps. I&rsquo;m not sure it solves it.</p>
+
+<h2 class="relative group">do this week
+    <div id="do-this-week" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#do-this-week" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>Take one agent workflow that has an approval step. In a test setup, change the pending action after approval and see whether it still runs. Ten minutes will tell you which side of the paper you are on.</li>
+<li>Add one line to your incident template: &ldquo;Was an AI agent involved, on our side or theirs?&rdquo; It costs nothing now and saves a scramble later.</li>
+</ol>
+<p>When you last clicked approve on something automated, how sure were you that it ran exactly what you saw?</p>
+<p><em>you signed the page you saw. the machine filed a different one.</em></p>
+
+<h2 class="relative group">sources
+    <div id="sources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Adithyan Arun Kumar, &ldquo;Loopjacking: Hijacking Human-in-the-Loop Approval&rdquo;, arXiv 2609.21081 (17 Sept 2026): <a href="https://arxiv.org/abs/2609.21081"  target="_blank">arxiv.org/abs/2609.21081</a></li>
+<li>Loopjacking evidence and reproduction archive: <a href="https://github.com/adithyan-ak/loopjacking"  target="_blank">github.com/adithyan-ak/loopjacking</a></li>
+<li>Infobae, on the AEPD&rsquo;s first breach notification involving an AI agent (15 Sept 2026, Spanish): <a href="https://www.infobae.com/espana/2026/09/15/la-agencia-espanola-de-proteccion-de-datos-recibe-la-primera-notificacion-de-una-brecha-presuntamente-ejecutada-por-un-agente-de-ia/"  target="_blank">infobae.com</a></li>
+</ul>
+<p>Stay patched. Stay paranoid. Maximum effort.</p>
+<p><em>i take help from ai to optimise what i have learned and share it with you. the reading, the lens and the calls are mine. weekly, so you stay updated without the scroll fatigue.</em></p>
+
+]]></content:encoded></item><item><title>welcome to signal loop: what this is, and what it is not</title><link>https://virtueofvague.com/newsletter/2026-w40-welcome-to-signal-loop/</link><pubDate>Tue, 29 Sep 2026 07:30:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</author><guid>https://virtueofvague.com/newsletter/2026-w40-welcome-to-signal-loop/</guid><description> Too much AI security news. Too little signal.
+Most of it is launches. Some of it is noise dressed as urgency. A small part actually changes what a defender does on Monday.
+Signal Loop finds that small part, once a week.
+what this is # A weekly read of AI and security, written by a Security analyst. Read through a security operations lens. Opinionated, sourced, short. Built for peers, curious people around cyber, and security leaders. The name carries two ideas: the human in the loop who confirms what the machine did before anything closes, and keeping you in the loop without the scroll fatigue.</description><content:encoded><![CDATA[<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="The Signal Loop orbit mark on a dark starfield, with the words welcome to signal loop"
+    src="https://virtueofvague.com/newsletter/covers/2026-w40-welcome-to-signal-loop.jpg"
+    ></figure>
+<p>Too much AI security news. Too little signal.</p>
+<p>Most of it is launches. Some of it is noise dressed as urgency. A small part actually changes what a defender does on Monday.</p>
+<p>Signal Loop finds that small part, once a week.</p>
+
+<h2 class="relative group">what this is
+    <div id="what-this-is" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-this-is" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>A weekly read of AI and security, written by a Security analyst.</li>
+<li>Read through a security operations lens. Opinionated, sourced, short.</li>
+<li>Built for peers, curious people around cyber, and security leaders.</li>
+</ul>
+<p>The name carries two ideas: the human in the loop who confirms what the machine did before anything closes, and keeping you in the loop without the scroll fatigue.</p>
+
+<h2 class="relative group">what every issue gives you
+    <div id="what-every-issue-gives-you" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-every-issue-gives-you" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>section</th>
+					<th>what you get</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>the tell</td>
+					<td>one story most people missed, and why it matters</td>
+			</tr>
+			<tr>
+					<td>hype meter</td>
+					<td>the loudest headline of the week, rated 1 to 5 for signal</td>
+			</tr>
+			<tr>
+					<td>what i&rsquo;m ignoring</td>
+					<td>two to four things you can safely skip</td>
+			</tr>
+			<tr>
+					<td>the real one</td>
+					<td>something usable this week, limits stated plainly</td>
+			</tr>
+			<tr>
+					<td>tools worth a look</td>
+					<td>two or three trending open-source tools, one line each</td>
+			</tr>
+			<tr>
+					<td>the part that stays</td>
+					<td>the security angle, then the human angle</td>
+			</tr>
+			<tr>
+					<td>do this week</td>
+					<td>one or two small actions, sized for a busy shift</td>
+			</tr>
+			<tr>
+					<td>reader question</td>
+					<td>a real question from you, answered</td>
+			</tr>
+	</tbody>
+</table>
+<p>Then one closing question and one line to carry.</p>
+
+<h2 class="relative group">what this is not
+    <div id="what-this-is-not" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-this-is-not" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li><strong>Not a news summary.</strong> A filter with an opinion.</li>
+<li><strong>Not hype, not doom.</strong> Real threats named plainly. Marketing called marketing.</li>
+<li><strong>Not a vendor channel.</strong> No sponsored picks. Vendor claims flagged as unverified.</li>
+<li><strong>Not a lecture.</strong> Actions are offers. You know your environment best.</li>
+</ul>
+
+<h2 class="relative group">the rules
+    <div id="the-rules" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-rules" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Numbers come with a source you can open, primary sources first wherever I can find them.</li>
+<li>My opinions are labelled &ldquo;my read&rdquo;, so you can tell them apart from reported claims.</li>
+<li>Tools are marked &ldquo;not tested&rdquo; unless I have actually run them.</li>
+<li>If I get something wrong, I correct it in the next issue.</li>
+<li>When I don&rsquo;t know, I say so. Honestly? That will happen often. AI security moves faster than anyone&rsquo;s certainty.</li>
+</ul>
+
+<h2 class="relative group">when it arrives
+    <div id="when-it-arrives" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#when-it-arrives" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Every Monday, 07:30 IST, on the site and by email.</li>
+<li>Issue 1 is already up if you want to see the format first. Link below.</li>
+<li>Have a question for the reader section? Leave a comment on any issue.</li>
+</ul>
+<p>What is the one AI security question you wish someone would answer plainly?</p>
+<p><em>the signal was always there. the loop is how you learn to hear it.</em></p>
+
+<h2 class="relative group">sources
+    <div id="sources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Signal Loop issue 1, &ldquo;the check that gave it away&rdquo;: <a href="https://virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away/"  target="_blank">virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away</a></li>
+<li>Signal Loop archive and RSS feed: <a href="https://virtueofvague.com/newsletter/"  target="_blank">virtueofvague.com/newsletter</a></li>
+</ul>
+<p>Stay patched. Stay paranoid. Maximum effort.</p>
+<p><em>i take help from ai to optimise what i have learned and share it with you. the reading, the lens and the calls are mine. weekly, so you stay updated without the scroll fatigue.</em></p>
+
+]]></content:encoded></item><item><title>the check that gave it away: an ai agent outs its own operator</title><link>https://virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away/</link><pubDate>Mon, 21 Sep 2026 07:30:00 +0530</pubDate><author>prakashpayyanagoudar@gmail.com (Prakash Ayyanagoudar)</author><guid>https://virtueofvague.com/newsletter/2026-w39-the-check-that-gave-it-away/</guid><description>An attacker’s AI agent gave away its own operator this week. Not through a bug. It followed an instruction, correctly.
+That is the story worth your time. Everything else in my feed was a launch.
+the tell # A SANS Internet Storm Center diary by Renato Marinho, published 11 September, describes an offensive coding agent that mistook a honeypot for a real, free LLM backend.</description><content:encoded><![CDATA[<p>An attacker&rsquo;s AI agent gave away its own operator this week.
+Not through a bug. It followed an instruction, correctly.</p>
+<p>That is the story worth your time. Everything else in my feed was a launch.</p>
+
+<h2 class="relative group">the tell
+    <div id="the-tell" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-tell" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>A SANS Internet Storm Center diary by Renato Marinho, published 11 September, describes an offensive coding agent that mistook a honeypot for a real, free LLM backend.</p>
+<p>The request carried far more than an exploit payload. The honeypot received about 43 KB: a large AGENTS.md, an offensive playbook, infrastructure notes, reconnaissance scripts, collected API keys, previous targets, and parts of the agent&rsquo;s working history.</p>
+<p>One instruction told the agent to verify its proxy was active before attacking. That check exposed the operator&rsquo;s direct, unproxied egress IP. The agent leaked it by doing exactly what it was told.</p>
+<p>My read: nobody built this to fail. Every instruction was reasonable in isolation. What was missing was judgment, the ability to ask whether a check safe to run at home is still safe to run in front of a stranger&rsquo;s server. SOC teams have the same gap with a well-behaved copilot that closes a ticket correctly without knowing the incident three rows up is still open.</p>
+
+<h2 class="relative group">what i&rsquo;m ignoring
+    <div id="what-im-ignoring" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-im-ignoring" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>Any AI product pitched this week as a &ldquo;decision engine&rdquo;. Positioning until someone outside the vendor tests it.</li>
+<li>Pledge-style headlines about labs slowing down. A pledge with no enforcement and no date is a press release, not a control.</li>
+<li>Lab gossip. Not a SOC problem.</li>
+</ul>
+
+<h2 class="relative group">the real one
+    <div id="the-real-one" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-real-one" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Pillar Security reported an active MCP supply-chain campaign they call Deadbugz. On 10 August, in a 74-minute window, one GitHub account opened 23 pull requests across unrelated AI, MCP and developer-tool repositories. Each added a server called productivity-suite.</p>
+<p>The server offers two harmless tools, format_text and summarize, and behaves normally. Once it reaches three calls, its tool listings change and steer the connected agent toward SSH keys, AWS credentials, shell history and Kubernetes config.</p>
+<p>Auto drivers have a line for this: meter kharab hai. The meter is &ldquo;broken&rdquo;, so you cannot check the fare. A tool description you cannot watch change is the same meter. Two clean calls prove nothing, because the server decides when to show you what it really does.</p>
+<p>What I&rsquo;d watch:</p>
+<ul>
+<li>any MCP server pull request from an account with no history in your org&rsquo;s repos</li>
+<li>a tool&rsquo;s description text changing between calls, not just between releases</li>
+<li>an agent reaching for credentials a formatting tool has no business touching</li>
+</ul>
+<p>Caveat: when Pillar published on 12 August, 19 of the reviewed pull requests were closed and four were still open. Do not assume the closures cover you. Check your own configs. If your team reviews MCP servers by reading the README once, this is the argument for reading the code.</p>
+
+<h2 class="relative group">the part that stays
+    <div id="the-part-that-stays" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-part-that-stays" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Security angle: both stories say the same thing from opposite sides of the wire. An agent that verifies things literally, without asking whether the verification itself is safe, will hand someone a win eventually, whichever side it&rsquo;s running for.</p>
+<p>Human angle: neither agent here made a decision. One leaked its own operator by checking a proxy correctly. The other waited three calls before turning honest into hostile. Both just ran instructions, all the way through.</p>
+<p>Honestly? I don&rsquo;t have a tidy conclusion for what that means once a SOC hands one of these more access next quarter. I don&rsquo;t think anyone fully does yet.</p>
+
+<h2 class="relative group">do this week
+    <div id="do-this-week" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#do-this-week" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ol>
+<li>List every MCP server currently connected in your environment and who approved it. An unowned list is the finding.</li>
+<li>Pick one reference value, like the proxy check in Marinho&rsquo;s writeup, and check whether anything in your environment would leak it the same way if it were watched instead of trusted.</li>
+</ol>
+<p>Which one worries you more: the agent that gives up its own operator, or the one that waits three calls before it shows you what it actually does?</p>
+<p><em>a check that is safe at home is a leak in front of a stranger.</em></p>
+
+<h2 class="relative group">sources
+    <div id="sources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sources" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li>SANS Internet Storm Center, Renato Marinho, &ldquo;The Self-Expanding Stolen Inference Supply Chain&rdquo; (11 Sept 2026): <a href="https://isc.sans.edu/diary/33332"  target="_blank">isc.sans.edu/diary/33332</a></li>
+<li>Pillar Security, &ldquo;Deadbugz: Currently Active MCP Supply-Chain Campaign&rdquo;: <a href="https://www.pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign"  target="_blank">pillar.security/blog/deadbugz-currently-active-mcp-supply-chain-campaign</a></li>
+</ul>
+<p>Stay patched. Stay paranoid. Maximum effort.</p>
+<p><em>i take help from ai to optimise what i have learned and share it with you. the reading, the lens and the calls are mine. weekly, so you stay updated without the scroll fatigue.</em></p>
+
+]]></content:encoded></item></channel></rss>

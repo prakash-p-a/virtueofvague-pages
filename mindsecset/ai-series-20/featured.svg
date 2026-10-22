@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1600" height="900" fill="var(--hero-bg-1)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Spectrum bar: automate -> augment -> keep human -->
+  <line x1="260" y1="450" x2="1340" y2="450" stroke="var(--hero-stone)" stroke-width="2" opacity="0.3"/>
+
+  <!-- Automate: dense cluster of small nodes -->
+  <circle cx="340" cy="420" r="10" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="380" cy="460" r="10" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.35"/>
+  <circle cx="330" cy="480" r="10" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="400" cy="410" r="10" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Augment: mid cluster, mixed -->
+  <circle cx="800" cy="430" r="26" fill="none" stroke="var(--hero-stone)" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="800" cy="430" r="10" fill="none" stroke="var(--hero-gold)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Keep human: single strong gold node -->
+  <circle cx="1260" cy="450" r="46" fill="none" stroke="var(--hero-gold)" stroke-width="2" opacity="0.55"/>
+  <circle cx="1260" cy="450" r="8" fill="var(--hero-gold)" opacity="0.65"/>
+
+  <!-- Series number -->
+  <text x="1530" y="75" text-anchor="end" font-family="Georgia,serif" font-size="52" fill="var(--hero-stone)" opacity="0.25">#20</text>
+</svg>

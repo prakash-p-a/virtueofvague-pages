@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1600" height="900" fill="var(--hero-bg-1)"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="300" x2="1600" y2="300" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="600" x2="1600" y2="600" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Rotating cycle: four arcs forming a ring, with arrowheads -->
+  <circle cx="800" cy="450" r="260" fill="none" stroke="var(--hero-edge)" stroke-width="0.5" opacity="0.15"/>
+
+  <path d="M 800 190 A 260 260 0 0 1 1060 450" fill="none" stroke="var(--hero-stone)" stroke-width="2" opacity="0.35"/>
+  <path d="M 1060 450 A 260 260 0 0 1 800 710" fill="none" stroke="var(--hero-stone)" stroke-width="2" opacity="0.3"/>
+  <path d="M 800 710 A 260 260 0 0 1 540 450" fill="none" stroke="var(--hero-gold)" stroke-width="2" opacity="0.45"/>
+  <path d="M 540 450 A 260 260 0 0 1 800 190" fill="none" stroke="var(--hero-gold)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Arrowhead at top -->
+  <path d="M 790 195 L 800 172 L 815 194 Z" fill="var(--hero-gold)" opacity="0.5"/>
+
+  <circle cx="800" cy="450" r="8" fill="var(--hero-gold)" opacity="0.6"/>
+
+  <!-- Series number -->
+  <text x="1530" y="75" text-anchor="end" font-family="Georgia,serif" font-size="52" fill="var(--hero-stone)" opacity="0.25">#22</text>
+</svg>
